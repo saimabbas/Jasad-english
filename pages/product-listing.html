@@ -1,0 +1,1976 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Listing</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/bootstrap.css.map">
+    <link rel="stylesheet" href="../css/all.css">
+    <link rel="stylesheet" href="../css/swiper.css">
+    <link rel="stylesheet" href="../css/jasad.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css"
+        integrity="sha512-WEQNv9d3+sqyHjrqUZobDhFARZDko2wpWdfcpv44lsypsSuMO0kHGd3MQ8rrsBn/Qa39VojphdU6CMkpJUmDVw=="
+        crossorigin="anonymous" />
+</head>
+
+<body>
+
+    <div class="bn-black-body bn-hide-all bn-hide-all-2"></div>
+    <div class="get-in-touch">
+        <span class="git-cross"><i class="fas fa-chevron-right"></i></span>
+        <img class="git-top-img" src="../images/get-in-touch.svg">
+        <div class="git-trigger">
+            <img src="../images/git-trigger.svg">
+        </div>
+
+        <div class="git-fields">
+            <input class="form-control" type="text" placeholder="Title">
+            <select class="form-control">
+                <option>Problem</option>
+                <option>Saudi Arabia</option>
+                <option>Iraq</option>
+                <option>Iran</option>
+                <option>India</option>
+                <option>USA</option>
+                <option>China</option>
+                <option>England</option>
+                <option>Korea</option>
+            </select>
+            <input class="form-control" type="text" placeholder="Email">
+            <input class="form-control" type="text" placeholder="Contact no.">
+            <input class="form-control" type="text" placeholder="Secondary Contact no.">
+            <select class="form-control">
+                <option>Reference no.</option>
+                <option>Saudi Arabia</option>
+                <option>Iraq</option>
+                <option>Iran</option>
+                <option>India</option>
+                <option>USA</option>
+                <option>China</option>
+                <option>England</option>
+                <option>Korea</option>
+            </select>
+            <textarea class="form-control" placeholder="Description"></textarea>
+        </div>
+        <div class="git-buttons">
+            <button class="btn git-close">Close</button>
+            <button class="btn git-send">Send</button>
+        </div>
+    </div>
+    <div class="bars-nav-box wow animated backInRight">
+        <a href="#" class="jsd-nav-col-open-1">Home<i class="fas fa-plus"></i></a>
+        <div class="jsd-nav-col-1">
+            <a href="#"><span>Home Link 1</span></a>
+            <a href="#"><span>Home Link 2</span></a>
+            <a href="#"><span>Home Link 3</span></a>
+        </div>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="#">List</a>
+        <a href="#" class="jsd-nav-col-open-2">For Buyers<i class="fas fa-plus"></i></a>
+        <div class="jsd-nav-col-2">
+            <a href="#"><span>Buyers Link 1</span></a>
+            <a href="#"><span>Buyers Link 2</span></a>
+            <a href="#"><span>Buyers Link 3</span></a>
+        </div>
+        <a href="#" class="jsd-nav-col-open-3">For Sellers<i class="fas fa-plus"></i></a>
+        <div class="jsd-nav-col-3">
+            <a href="#"><span>Sellers Link 1</span></a>
+            <a href="#"><span>Sellers Link 2</span></a>
+            <a href="#"><span>Sellers Link 3</span></a>
+        </div>
+    </div>
+    <div class="bars-nav-box-2 wow animated backInRight">
+        <div class="bn-signin-box">
+            <i class="far fa-user"></i> Sign In
+        </div>
+        <h1>Sign Up</h1>
+        <a href="#">As a Seller</a>
+        <a href="#">As a Buyer</a>
+
+    </div>
+    <div class="container-fluid whole-body-padding bn-hide-all">
+        <div class="row nav-top" id="page-top">
+            <div class="col-6 contact-us">
+                <i class="fas fa-phone-alt mr-1"></i>
+                CONTACT US : (1800) 000 8808
+            </div>
+            <div class="col-6 icons-top it-mob">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-youtube"></i>
+                <i class="fas fa-wifi" style="margin-right: 3vw;"></i>
+
+                <div class="dropdown language">
+                    <button type="button" class="btn   dropdown-toggle" data-toggle="dropdown">
+                        <i class="fas fa-globe "></i>
+                        <span>LANGUAGE</span>
+                        <i class="fas fa-chevron-down nav-btn-down"></i>
+                    </button>
+                    <div class="dropdown-menu" id="languages-dropdown">
+                        <a class="dropdown-item" href="#">English</a>
+                        <a class="dropdown-item" href="#">العربية</a>
+                    </div>
+                </div>
+                <div class="dropdown country">
+                    <button type="button" class="btn  dropdown-toggle" data-toggle="dropdown">
+                        <i class="fas fa-map-marked-alt "></i>
+                        <span>COUNTRY</span>
+                        <i class="fas fa-chevron-down nav-btn-down"></i>
+                    </button>
+                    <div class="dropdown-menu" id="country-dropdown">
+                        <a class="dropdown-item" href="#"><img src="../images/saudi.svg"> KSA TO SAR</a>
+                        <a class="dropdown-item" href="#"><img src="../images/uae.svg"> UAE TO AED</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid wbp">
+        <div class="row nav-top-2">
+            <div class="col-1 logo-box">
+                <img src="../images/jasadlogo.svg">
+            </div>
+            <div class="col-7 nav-items">
+                <div class="dropdown home">
+                    <button type="button " class="btn home-nav-button bottom-nav-active dropdown-toggle"
+                        data-toggle="dropdown">
+                        HOME
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="dropdown-menu" id="home-drop">
+                        <a class="dropdown-item" href="#">Link 1</a>
+                        <a class="dropdown-item" href="#">Link 2</a>
+                        <a class="dropdown-item" href="#">Link 3</a>
+                    </div>
+                </div>
+                <a href="">ABOUT</a>
+                <a href="">CONTACT</a>
+                <a href="">LIST</a>
+                <div class="dropdown home">
+                    <button type="button " class="btn home-nav-button  dropdown-toggle" data-toggle="dropdown">
+                        FOR BUYERS
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="dropdown-menu" id="buyers-drop">
+                        <a class="dropdown-item" href="#">Link 1</a>
+                        <a class="dropdown-item" href="#">Link 2</a>
+                        <a class="dropdown-item" href="#">Link 3</a>
+                    </div>
+                </div>
+                <div class="dropdown home">
+                    <button type="button " class="btn home-nav-button dropdown-toggle" data-toggle="dropdown">
+                        FOR SELLERS
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="dropdown-menu" id="sellers-drop">
+                        <a class="dropdown-item" href="#">Link 1</a>
+                        <a class="dropdown-item" href="#">Link 2</a>
+                        <a class="dropdown-item" href="#">Link 3</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-12 sign-cart-up">
+
+                <div class="bars-nav">
+                    <i class="fas fa-bars bn-show"></i>
+                    <i class="fas fa-times bn-hide-all bn-hide"></i>
+                </div>
+                <img class="jasadlogomob" src="../images/jasadlogo.svg">
+                <div class="display-flex">
+                    <div class="sign-icon bn-show-2">
+                        <i class="far fa-user"></i>
+                        <span>Sign In</span>
+
+                    </div>
+                    <div class="list-of-nav">
+                        <img src="../images/list-nav.svg">
+                        <div class="list-nav-content ml-1">
+                            <p>My Cart </p>
+                            <span>23</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dropdown language sign-up-mob">
+                    <button type="button" class="btn   dropdown-toggle sign-up-box" data-toggle="dropdown">
+                        SIGN UP
+                        <i class="fas fa-chevron-down mx-2 "></i>
+                    </button>
+                    <div class="dropdown-menu " id="seller-buyer">
+                        <a class="dropdown-item" href="#">As Buyer</a>
+                        <a class="dropdown-item" href="#">As Seller</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid back-gray baack-gray-mob  bn-hide-all">
+        <div class="row ">
+            <div class="col-12 text-center bread-crumbs-row ">
+                <a class="equiplink active">Home</a>
+                /
+                <a class="equiplink">About</a>
+            </div>
+        </div>
+    </div>
+    <div class="mob-filter-container">
+        <div class="col-12">
+            <div class="row side-bar-con">
+                <div class="col-12 side-bar-head sbh-1">
+                    <p>Filters </p>
+                </div>
+                <div class="col-12 mob-filter-clear">
+                    <p>Filters applied : 3</p>
+                    <span><i class="fas fa-times"></i> Clear all</span>
+                </div>
+                <div class="col-12 category-list sbc-1">
+                    <div class="row ctt-box product-type">
+                        <div class="col-10">
+                            <p class="">Shop by Category</p>
+                        </div>
+                        <div class="col-12 ct-text">
+                            <div>Medicine/Company <i class="fas fa-chevron-right"></i></div>
+                            <span>
+                                <a href="#">This is link no. 1</a>
+                                <a href="#">This is link no. 2</a>
+                                <a href="#">This is link no. 3</a>
+                            </span>
+                        </div>
+                        <div class="col-12 ct-text">
+                            <div>Medicine/Company <i class="fas fa-chevron-right"></i></div>
+                            <span>
+                                <a href="#">This is link no. 1</a>
+                                <a href="#">This is link no. 2</a>
+                                <a href="#">This is link no. 3</a>
+                            </span>
+                        </div>
+                        <div class="col-12 ct-text">
+                            <div>Medicine/Company <i class="fas fa-chevron-right"></i></div>
+                            <span>
+                                <a href="#">This is link no. 1</a>
+                                <a href="#">This is link no. 2</a>
+                                <a href="#">This is link no. 3</a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 category-list sbc-1">
+
+                    <div class="row product-type">
+                        <div class="col-10">
+                            <p class="">Product type</p>
+                        </div>
+                        <div class="col-11">
+                            <div class="custom-control custom-checkbox">
+                                <input id="medical" type="checkbox" checked>
+                                <label for="medical">Medical</label>
+                            </div>
+                        </div>
+                        <div class="col-11">
+                            <div class="custom-control custom-checkbox">
+                                <input id="non-medical" type="checkbox">
+                                <label for="non-medical">Non-Medical</label>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 category-list brand-fliter sbc-2">
+                    <div class="row product-type">
+                        <div class="col-10">
+                            <p class="">Brand</p>
+                        </div>
+                        <div class="col-11">
+                            <div class="custom-control custom-checkbox">
+                                <input id="b-1" type="checkbox">
+                                <label for="b-1">Brand Name</label>
+                            </div>
+                        </div>
+                        <div class="col-11">
+                            <div class="custom-control custom-checkbox">
+                                <input id="b-2" type="checkbox" checked>
+                                <label for="b-2">Brand Name</label>
+                            </div>
+                        </div>
+                        <div class="col-11">
+                            <div class="custom-control custom-checkbox">
+                                <input id="b-3" type="checkbox">
+                                <label for="b-3">Brand Name</label>
+                            </div>
+                        </div>
+                        <div class="col-11">
+                            <div class="custom-control custom-checkbox">
+                                <input id="b-4" type="checkbox">
+                                <label for="b-4">Brand Name</label>
+                            </div>
+                        </div>
+                        <div class="col-11">
+                            <div class="custom-control custom-checkbox">
+                                <input id="b-5" type="checkbox">
+                                <label for="b-5">Brand Name</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 category-list brand-fliter sbc-2">
+                    <div class="row product-type">
+                        <div class="col-10">
+                            <p class="">Price</p>
+                        </div>
+                        <div class="col-10 fp-min-max">
+                            <input type="number" class="form-control" placeholder="Min">
+                            <p>-</p>
+                            <input type="number" class="form-control" placeholder="Max">
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 category-list brand-fliter sbc-2">
+                    <div class="row product-type">
+                        <div class="col-10">
+                            <p class="">Service</p>
+                        </div>
+                        <div class="col-11">
+                            <div class="custom-control custom-checkbox">
+                                <input id="s-1" type="checkbox">
+                                <label for="s-1">Installment</label>
+                            </div>
+                        </div>
+                        <div class="col-11">
+                            <div class="custom-control custom-checkbox">
+                                <input id="s-2" type="checkbox" checked>
+                                <label for="s-2">Cash On Delivery</label>
+                            </div>
+                        </div>
+                        <div class="col-11">
+                            <div class="custom-control custom-checkbox">
+                                <input id="s-3" type="checkbox">
+                                <label for="s-3">Rapid Delivery</label>
+                            </div>
+                        </div>
+                        <div class="col-11">
+                            <div class="custom-control custom-checkbox">
+                                <input id="s-4" type="checkbox">
+                                <label for="s-4">Free Delivery</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 category-list brand-fliter sbc-2">
+                    <div class="row product-type">
+                        <div class="col-10">
+                            <p class="">Year of Expiry</p>
+                        </div>
+                        <div class="col-11">
+                            <div class="custom-control custom-checkbox">
+                                <input id="y-1" type="checkbox" checked>
+                                <label for="y-1">2020</label>
+                            </div>
+                        </div>
+                        <div class="col-11">
+                            <div class="custom-control custom-checkbox">
+                                <input id="y-2" type="checkbox">
+                                <label for="y-2">2019</label>
+                            </div>
+                        </div>
+                        <div class="col-11">
+                            <div class="custom-control custom-checkbox">
+                                <input id="y-3" type="checkbox">
+                                <label for="y-3">2018</label>
+                            </div>
+                        </div>
+                        <div class="col-11">
+                            <div class="custom-control custom-checkbox">
+                                <input id="y-4" type="checkbox">
+                                <label for="y-4">2017</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 category-list brand-fliter sbc-2">
+                    <div class="row product-type">
+                        <div class="col-10">
+                            <p class="">Health & Personal Care Format</p>
+                        </div>
+                        <div class="col-11">
+                            <div class="custom-control custom-checkbox">
+                                <input id="hpcf-1" type="checkbox">
+                                <label for="hpcf-1">Capsules</label>
+                            </div>
+                        </div>
+                        <div class="col-11">
+                            <div class="custom-control custom-checkbox">
+                                <input id="hpcf-2" type="checkbox">
+                                <label for="hpcf-2">Chewables</label>
+                            </div>
+                        </div>
+                        <div class="col-11">
+                            <div class="custom-control custom-checkbox">
+                                <input id="hpcf-3" type="checkbox" checked>
+                                <label for="hpcf-3">Creams</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 category-list brand-fliter sbc-2">
+                    <div class="row product-type average-review">
+                        <div class="col-10">
+                            <p class="">Avg. Customer Review</p>
+                        </div>
+                        <div class="col-11">
+                            <div class="custom-control custom-checkbox">
+                                <input id="acr-1" type="checkbox" checked>
+                                <label for="acr-1">
+                                    <i class="fas fa-star yellow-star"></i>
+                                    <i class="fas fa-star yellow-star"></i>
+                                    <i class="fas fa-star yellow-star"></i>
+                                    <i class="fas fa-star yellow-star"></i>
+                                    <i class="fas fa-star gray-star"></i>
+                                    &Up
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-11">
+                            <div class="custom-control custom-checkbox">
+                                <input id="acr-2" type="checkbox">
+                                <label for="acr-2">
+                                    <i class="fas fa-star yellow-star"></i>
+                                    <i class="fas fa-star yellow-star"></i>
+                                    <i class="fas fa-star yellow-star"></i>
+                                    <i class="fas fa-star gray-star"></i>
+                                    <i class="fas fa-star gray-star"></i>
+                                    &Up
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-11">
+                            <div class="custom-control custom-checkbox">
+                                <input id="acr-3" type="checkbox">
+                                <label for="acr-3">
+                                    <i class="fas fa-star yellow-star"></i>
+                                    <i class="fas fa-star yellow-star"></i>
+                                    <i class="fas fa-star gray-star"></i>
+                                    <i class="fas fa-star gray-star"></i>
+                                    <i class="fas fa-star gray-star"></i>
+                                    &Up
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-11">
+                            <div class="custom-control custom-checkbox">
+                                <input id="acr-4" type="checkbox">
+                                <label for="acr-4">
+                                    <i class="fas fa-star yellow-star"></i>
+                                    <i class="fas fa-star gray-star"></i>
+                                    <i class="fas fa-star gray-star"></i>
+                                    <i class="fas fa-star gray-star"></i>
+                                    <i class="fas fa-star gray-star"></i>
+                                    &Up
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid wbp">
+        <div class="row product-request-l">
+            <div class="col-sm-9 col-8 offset-sm-1 offset-0 search-10">
+                <div class="input-group product-box-detail ">
+                    <div class="input-group-prepend p-0">
+                        <select class="form-control">
+                            <option>All categories</option>
+                            <option>Saudi Arabia</option>
+                            <option>Iraq</option>
+                            <option>Iran</option>
+                            <option>India</option>
+                            <option>USA</option>
+                            <option>China</option>
+                            <option>England</option>
+                            <option>Korea</option>
+                        </select>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Search Products...">
+                    <div class="input-group-append">
+                        <span class="input-group-text igt-2"><i class="fas fa-search"></i></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2  request-l">
+                <img src="../images/post.svg" alt="">
+                <span>Post your request</span>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid back-gray">
+        <div class="row ">
+            <div class="col-12 text-center bread-crumbs-row ">
+                <a class="equiplink active">Home </a>
+                /
+                <a class="equiplink" id="barequippage1"> Medical Equipments</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid wbp">
+        <div class="row pl-main">
+            <div class="col-3 filter-col-3-mob">
+                <div class="row side-bar-con">
+                    <div class="col-12 side-bar-head">
+                        <p>Shop by Category </p>
+                        <span>
+                            <a href="#">Claer all</a>
+                            <i class="fas fa-sort-down  sbh-1"></i>
+                        </span>
+                    </div>
+                    <div class="col-12 category-list sbc-1">
+                        <div class="row ctt-box">
+                            <div class="col-11 offset-1 ct-text">Medicine/Company <i class="fas fa-chevron-right"></i>
+                            </div>
+                            <div class="col-11 offset-1 ct-text">Medicine/Company <i class="fas fa-chevron-right"></i>
+                            </div>
+                            <div class="col-11 offset-1 ct-text">Medicine/Company <i class="fas fa-chevron-right"></i>
+                            </div>
+                        </div>
+                        <div class="row product-type">
+                            <div class="col-10 offset-1">
+                                <p class="">Product type</p>
+                            </div>
+                            <div class="col-11 offset-1">
+                                <div class="custom-control custom-checkbox">
+                                    <input id="medical" type="checkbox" class="custom-control-input" checked>
+                                    <label for="medical" class="custom-control-label">Medical</label>
+                                </div>
+                            </div>
+                            <div class="col-11 offset-1">
+                                <div class="custom-control custom-checkbox">
+                                    <input id="non-medical" type="checkbox" class="custom-control-input">
+                                    <label for="non-medical" class="custom-control-label">Non-Medical</label>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row side-bar-con">
+                    <div class="col-12 side-bar-head sbh-2">
+                        <p>Filters </p>
+                        <i class="fas fa-sort-down"></i>
+                    </div>
+                    <div class="col-12 category-list brand-fliter sbc-2">
+                        <div class="row product-type">
+                            <div class="col-10 offset-1">
+                                <p class="">Brand</p>
+                            </div>
+                            <div class="col-11 offset-1">
+                                <div class="custom-control custom-checkbox">
+                                    <input id="b-1" type="checkbox" class="custom-control-input">
+                                    <label for="b-1" class="custom-control-label">Brand Name</label>
+                                </div>
+                            </div>
+                            <div class="col-11 offset-1">
+                                <div class="custom-control custom-checkbox">
+                                    <input id="b-2" type="checkbox" class="custom-control-input" checked>
+                                    <label for="b-2" class="custom-control-label">Brand Name</label>
+                                </div>
+                            </div>
+                            <div class="col-11 offset-1">
+                                <div class="custom-control custom-checkbox">
+                                    <input id="b-3" type="checkbox" class="custom-control-input">
+                                    <label for="b-3" class="custom-control-label">Brand Name</label>
+                                </div>
+                            </div>
+                            <div class="col-11 offset-1">
+                                <div class="custom-control custom-checkbox">
+                                    <input id="b-4" type="checkbox" class="custom-control-input">
+                                    <label for="b-4" class="custom-control-label">Brand Name</label>
+                                </div>
+                            </div>
+                            <div class="col-11 offset-1">
+                                <div class="custom-control custom-checkbox">
+                                    <input id="b-5" type="checkbox" class="custom-control-input">
+                                    <label for="b-5" class="custom-control-label">Brand Name</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 category-list brand-fliter sbc-2">
+                        <div class="row product-type">
+                            <div class="col-10 offset-1">
+                                <p class="">Price</p>
+                            </div>
+                            <div class="col-10 offset-1 fp-min-max">
+                                <input type="number" class="form-control" placeholder="Min">
+                                <p>-</p>
+                                <input type="number" class="form-control" placeholder="Max">
+                                <i class="fas fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 category-list brand-fliter sbc-2">
+                        <div class="row product-type">
+                            <div class="col-10 offset-1">
+                                <p class="">Service</p>
+                            </div>
+                            <div class="col-11 offset-1">
+                                <div class="custom-control custom-checkbox">
+                                    <input id="s-1" type="checkbox" class="custom-control-input">
+                                    <label for="s-1" class="custom-control-label">Installment</label>
+                                </div>
+                            </div>
+                            <div class="col-11 offset-1">
+                                <div class="custom-control custom-checkbox">
+                                    <input id="s-2" type="checkbox" class="custom-control-input" checked>
+                                    <label for="s-2" class="custom-control-label">Cash On Delivery</label>
+                                </div>
+                            </div>
+                            <div class="col-11 offset-1">
+                                <div class="custom-control custom-checkbox">
+                                    <input id="s-3" type="checkbox" class="custom-control-input">
+                                    <label for="s-3" class="custom-control-label">Rapid Delivery</label>
+                                </div>
+                            </div>
+                            <div class="col-11 offset-1">
+                                <div class="custom-control custom-checkbox">
+                                    <input id="s-4" type="checkbox" class="custom-control-input">
+                                    <label for="s-4" class="custom-control-label">Free Delivery</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 category-list brand-fliter sbc-2">
+                        <div class="row product-type">
+                            <div class="col-10 offset-1">
+                                <p class="">Year of Expiry</p>
+                            </div>
+                            <div class="col-11 offset-1">
+                                <div class="custom-control custom-checkbox">
+                                    <input id="y-1" type="checkbox" class="custom-control-input" checked>
+                                    <label for="y-1" class="custom-control-label">2020</label>
+                                </div>
+                            </div>
+                            <div class="col-11 offset-1">
+                                <div class="custom-control custom-checkbox">
+                                    <input id="y-2" type="checkbox" class="custom-control-input">
+                                    <label for="y-2" class="custom-control-label">2019</label>
+                                </div>
+                            </div>
+                            <div class="col-11 offset-1">
+                                <div class="custom-control custom-checkbox">
+                                    <input id="y-3" type="checkbox" class="custom-control-input">
+                                    <label for="y-3" class="custom-control-label">2018</label>
+                                </div>
+                            </div>
+                            <div class="col-11 offset-1">
+                                <div class="custom-control custom-checkbox">
+                                    <input id="y-4" type="checkbox" class="custom-control-input">
+                                    <label for="y-4" class="custom-control-label">2017</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 category-list brand-fliter sbc-2">
+                        <div class="row product-type">
+                            <div class="col-10 offset-1">
+                                <p class="">Health & Personal Care Format</p>
+                            </div>
+                            <div class="col-11 offset-1">
+                                <div class="custom-control custom-checkbox">
+                                    <input id="hpcf-1" type="checkbox" class="custom-control-input">
+                                    <label for="hpcf-1" class="custom-control-label">Capsules</label>
+                                </div>
+                            </div>
+                            <div class="col-11 offset-1">
+                                <div class="custom-control custom-checkbox">
+                                    <input id="hpcf-2" type="checkbox" class="custom-control-input">
+                                    <label for="hpcf-2" class="custom-control-label">Chewables</label>
+                                </div>
+                            </div>
+                            <div class="col-11 offset-1">
+                                <div class="custom-control custom-checkbox">
+                                    <input id="hpcf-3" type="checkbox" class="custom-control-input" checked>
+                                    <label for="hpcf-3" class="custom-control-label">Creams</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 category-list brand-fliter sbc-2">
+                        <div class="row product-type average-review">
+                            <div class="col-10 offset-1">
+                                <p class="">Avg. Customer Review</p>
+                            </div>
+                            <div class="col-11 offset-1">
+                                <div class="custom-control custom-checkbox">
+                                    <input id="acr-1" type="checkbox" class="custom-control-input" checked>
+                                    <label for="acr-1" class="custom-control-label">
+                                        <i class="fas fa-star yellow-star"></i>
+                                        <i class="fas fa-star yellow-star"></i>
+                                        <i class="fas fa-star yellow-star"></i>
+                                        <i class="fas fa-star yellow-star"></i>
+                                        <i class="fas fa-star gray-star"></i>
+                                        &Up
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-11 offset-1">
+                                <div class="custom-control custom-checkbox">
+                                    <input id="acr-2" type="checkbox" class="custom-control-input">
+                                    <label for="acr-2" class="custom-control-label">
+                                        <i class="fas fa-star yellow-star"></i>
+                                        <i class="fas fa-star yellow-star"></i>
+                                        <i class="fas fa-star yellow-star"></i>
+                                        <i class="fas fa-star gray-star"></i>
+                                        <i class="fas fa-star gray-star"></i>
+                                        &Up
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-11 offset-1">
+                                <div class="custom-control custom-checkbox">
+                                    <input id="acr-3" type="checkbox" class="custom-control-input">
+                                    <label for="acr-3" class="custom-control-label">
+                                        <i class="fas fa-star yellow-star"></i>
+                                        <i class="fas fa-star yellow-star"></i>
+                                        <i class="fas fa-star gray-star"></i>
+                                        <i class="fas fa-star gray-star"></i>
+                                        <i class="fas fa-star gray-star"></i>
+                                        &Up
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-11 offset-1">
+                                <div class="custom-control custom-checkbox">
+                                    <input id="acr-4" type="checkbox" class="custom-control-input">
+                                    <label for="acr-4" class="custom-control-label">
+                                        <i class="fas fa-star yellow-star"></i>
+                                        <i class="fas fa-star gray-star"></i>
+                                        <i class="fas fa-star gray-star"></i>
+                                        <i class="fas fa-star gray-star"></i>
+                                        <i class="fas fa-star gray-star"></i>
+                                        &Up
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 category-list brand-fliter sbc-2 abc-filter-end py-2 border-bottom-0">
+
+                        <a href="#">Clear all</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-9 col-12">
+                <div class="row top-row-pl">
+                    <div class="col-12 pl-right-box-top">
+                        <div class="mob-filter-box mob-filter-click">
+                            <i class="fas fa-bars"></i> Filters <span>2</span>
+                        </div>
+                        <div class="rbt-left">
+                            <ul class="nav nav-tabs grid-list-products">
+                                <li class="nav-item mr-3 ">
+                                    <a class="nav-link active " data-toggle="tab" href="#grid-product-list"><i
+                                            class="fas fa-border-all"></i></a>
+                                </li>
+                                <li class="nav-item mr-3">
+                                    <a class="nav-link " data-toggle="tab" href="#list-product-list"><i
+                                            class="fas fa-list"></i></a>
+                                </li>
+                            </ul>
+                            <p class="showing-results">Showing 9/125 results</p>
+                        </div>
+                        <div class="rbt-right">
+                            <p>Sort by:</p>
+                            <select class="form-control">
+                                <option>price low to high</option>
+                                <option>price low to high</option>
+                                <option>price high to low</option>
+                                <option>price high to low</option>
+                            </select>
+                        </div>
+                        <div class="rbt-left rbt-left-mob">
+                            <ul class="nav nav-tabs grid-list-products">
+                                <li class="nav-item mr-3 ">
+                                    <a class="nav-link active " data-toggle="tab" href="#grid-product-list"><i
+                                            class="fas fa-border-all"></i></a>
+                                </li>
+                                <li class="nav-item mr-3">
+                                    <a class="nav-link " data-toggle="tab" href="#list-product-list"><i
+                                            class="fas fa-list"></i></a>
+                                </li>
+                            </ul>
+                            <p class="showing-results">Showing 9/125 results</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="tab-content grid-list-content">
+                        <div class="tab-pane active  " id="grid-product-list">
+                            <div class="row grid-box">
+                                <div class="col-sm-4 col-6 grid-view-box">
+                                    <div class="grid-img-box">
+                                        <img src="../images/eyedrops.svg">
+                                    </div>
+                                    <p class="product-type">Beauty</p>
+                                    <div class="name-compare-fav">
+                                        <p class="grid-product-name">Eye Drops</p>
+                                        <div class="grid-compare-love">
+                                            <img src="../images/compare.svg" data-toggle="tooltip"
+                                                title="Add to compare">
+                                            <i class="fas fa-heart"></i>
+                                        </div>
+                                    </div>
+                                    <div class="star-price-cart">
+                                        <div class="star-price">
+                                            <div>
+                                                <i class="fas fa-star yellow-star"></i>
+                                                <i class="fas fa-star yellow-star"></i>
+                                                <i class="fas fa-star yellow-star"></i>
+                                                <i class="fas fa-star yellow-star"></i>
+                                                <i class="fas fa-star gray-star"></i>
+                                                <span>(41)</span>
+                                            </div>
+                                            <p class="grid-product-price">$334</p>
+                                        </div>
+                                        <button class="btn grid-cart"> <i class="fas fa-shopping-cart"></i> </button>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 col-6 grid-view-box">
+                                    <div class="grid-img-box">
+                                        <img src="../images/eyedrops.svg">
+                                    </div>
+                                    <p class="product-type">Beauty</p>
+                                    <div class="name-compare-fav">
+                                        <p class="grid-product-name">Eye Drops</p>
+                                        <div class="grid-compare-love">
+                                            <img src="../images/compare.svg" data-toggle="tooltip"
+                                                title="Add to compare">
+                                            <i class="fas fa-heart"></i>
+                                        </div>
+                                    </div>
+                                    <div class="star-price-cart">
+                                        <div class="star-price">
+                                            <div>
+                                                <i class="fas fa-star yellow-star"></i>
+                                                <i class="fas fa-star yellow-star"></i>
+                                                <i class="fas fa-star yellow-star"></i>
+                                                <i class="fas fa-star yellow-star"></i>
+                                                <i class="fas fa-star gray-star"></i>
+                                                <span>(41)</span>
+                                            </div>
+                                            <p class="grid-product-price">$334</p>
+                                        </div>
+                                        <button class="btn grid-cart"> <i class="fas fa-shopping-cart"></i> </button>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 col-6 grid-view-box">
+                                    <div class="grid-img-box">
+                                        <img src="../images/eyedrops.svg">
+                                    </div>
+                                    <p class="product-type">Beauty</p>
+                                    <div class="name-compare-fav">
+                                        <p class="grid-product-name">Eye Drops</p>
+                                        <div class="grid-compare-love">
+                                            <img src="../images/compare.svg" data-toggle="tooltip"
+                                                title="Add to compare">
+                                            <i class="fas fa-heart"></i>
+                                        </div>
+                                    </div>
+                                    <div class="star-price-cart">
+                                        <div class="star-price">
+                                            <div>
+                                                <i class="fas fa-star yellow-star"></i>
+                                                <i class="fas fa-star yellow-star"></i>
+                                                <i class="fas fa-star yellow-star"></i>
+                                                <i class="fas fa-star yellow-star"></i>
+                                                <i class="fas fa-star gray-star"></i>
+                                                <span>(41)</span>
+                                            </div>
+                                            <p class="grid-product-price">$334</p>
+                                        </div>
+                                        <button class="btn grid-cart"> <i class="fas fa-shopping-cart"></i> </button>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 col-6 grid-view-box">
+                                    <div class="grid-img-box">
+                                        <img src="../images/eyedrops.svg">
+                                    </div>
+                                    <p class="product-type">Beauty</p>
+                                    <div class="name-compare-fav">
+                                        <p class="grid-product-name">Eye Drops</p>
+                                        <div class="grid-compare-love">
+                                            <img src="../images/compare.svg" data-toggle="tooltip"
+                                                title="Add to compare">
+                                            <i class="fas fa-heart"></i>
+                                        </div>
+                                    </div>
+                                    <div class="star-price-cart">
+                                        <div class="star-price">
+                                            <div>
+                                                <i class="fas fa-star yellow-star"></i>
+                                                <i class="fas fa-star yellow-star"></i>
+                                                <i class="fas fa-star yellow-star"></i>
+                                                <i class="fas fa-star yellow-star"></i>
+                                                <i class="fas fa-star gray-star"></i>
+                                                <span>(41)</span>
+                                            </div>
+                                            <p class="grid-product-price">$334</p>
+                                        </div>
+                                        <button class="btn grid-cart"> <i class="fas fa-shopping-cart"></i> </button>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 col-6 grid-view-box">
+                                    <div class="grid-img-box">
+                                        <img src="../images/eyedrops.svg">
+                                    </div>
+                                    <p class="product-type">Beauty</p>
+                                    <div class="name-compare-fav">
+                                        <p class="grid-product-name">Eye Drops</p>
+                                        <div class="grid-compare-love">
+                                            <img src="../images/compare.svg" data-toggle="tooltip"
+                                                title="Add to compare">
+                                            <i class="fas fa-heart"></i>
+                                        </div>
+                                    </div>
+                                    <div class="star-price-cart">
+                                        <div class="star-price">
+                                            <div>
+                                                <i class="fas fa-star yellow-star"></i>
+                                                <i class="fas fa-star yellow-star"></i>
+                                                <i class="fas fa-star yellow-star"></i>
+                                                <i class="fas fa-star yellow-star"></i>
+                                                <i class="fas fa-star gray-star"></i>
+                                                <span>(41)</span>
+                                            </div>
+                                            <p class="grid-product-price">$334</p>
+                                        </div>
+                                        <button class="btn grid-cart"> <i class="fas fa-shopping-cart"></i> </button>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 col-6 grid-view-box">
+                                    <div class="grid-img-box">
+                                        <img src="../images/eyedrops.svg">
+                                    </div>
+                                    <p class="product-type">Beauty</p>
+                                    <div class="name-compare-fav">
+                                        <p class="grid-product-name">Eye Drops</p>
+                                        <div class="grid-compare-love">
+                                            <img src="../images/compare.svg" data-toggle="tooltip"
+                                                title="Add to compare">
+                                            <i class="fas fa-heart"></i>
+                                        </div>
+                                    </div>
+                                    <div class="star-price-cart">
+                                        <div class="star-price">
+                                            <div>
+                                                <i class="fas fa-star yellow-star"></i>
+                                                <i class="fas fa-star yellow-star"></i>
+                                                <i class="fas fa-star yellow-star"></i>
+                                                <i class="fas fa-star yellow-star"></i>
+                                                <i class="fas fa-star gray-star"></i>
+                                                <span>(41)</span>
+                                            </div>
+                                            <p class="grid-product-price">$334</p>
+                                        </div>
+                                        <button class="btn grid-cart"> <i class="fas fa-shopping-cart"></i> </button>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 col-6 grid-view-box">
+                                    <div class="grid-img-box">
+                                        <img src="../images/eyedrops.svg">
+                                    </div>
+                                    <p class="product-type">Beauty</p>
+                                    <div class="name-compare-fav">
+                                        <p class="grid-product-name">Eye Drops</p>
+                                        <div class="grid-compare-love">
+                                            <img src="../images/compare.svg" data-toggle="tooltip"
+                                                title="Add to compare">
+                                            <i class="fas fa-heart"></i>
+                                        </div>
+                                    </div>
+                                    <div class="star-price-cart">
+                                        <div class="star-price">
+                                            <div>
+                                                <i class="fas fa-star yellow-star"></i>
+                                                <i class="fas fa-star yellow-star"></i>
+                                                <i class="fas fa-star yellow-star"></i>
+                                                <i class="fas fa-star yellow-star"></i>
+                                                <i class="fas fa-star gray-star"></i>
+                                                <span>(41)</span>
+                                            </div>
+                                            <p class="grid-product-price">$334</p>
+                                        </div>
+                                        <button class="btn grid-cart"> <i class="fas fa-shopping-cart"></i> </button>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 col-6 grid-view-box">
+                                    <div class="grid-img-box">
+                                        <img src="../images/eyedrops.svg">
+                                    </div>
+                                    <p class="product-type">Beauty</p>
+                                    <div class="name-compare-fav">
+                                        <p class="grid-product-name">Eye Drops</p>
+                                        <div class="grid-compare-love">
+                                            <img src="../images/compare.svg" data-toggle="tooltip"
+                                                title="Add to compare">
+                                            <i class="fas fa-heart"></i>
+                                        </div>
+                                    </div>
+                                    <div class="star-price-cart">
+                                        <div class="star-price">
+                                            <div>
+                                                <i class="fas fa-star yellow-star"></i>
+                                                <i class="fas fa-star yellow-star"></i>
+                                                <i class="fas fa-star yellow-star"></i>
+                                                <i class="fas fa-star yellow-star"></i>
+                                                <i class="fas fa-star gray-star"></i>
+                                                <span>(41)</span>
+                                            </div>
+                                            <p class="grid-product-price">$334</p>
+                                        </div>
+                                        <button class="btn grid-cart"> <i class="fas fa-shopping-cart"></i> </button>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 col-6 grid-view-box">
+                                    <div class="grid-img-box">
+                                        <img src="../images/eyedrops.svg">
+                                    </div>
+                                    <p class="product-type">Beauty</p>
+                                    <div class="name-compare-fav">
+                                        <p class="grid-product-name">Eye Drops</p>
+                                        <div class="grid-compare-love">
+                                            <img src="../images/compare.svg" data-toggle="tooltip"
+                                                title="Add to compare">
+                                            <i class="fas fa-heart"></i>
+                                        </div>
+                                    </div>
+                                    <div class="star-price-cart">
+                                        <div class="star-price">
+                                            <div>
+                                                <i class="fas fa-star yellow-star"></i>
+                                                <i class="fas fa-star yellow-star"></i>
+                                                <i class="fas fa-star yellow-star"></i>
+                                                <i class="fas fa-star yellow-star"></i>
+                                                <i class="fas fa-star gray-star"></i>
+                                                <span>(41)</span>
+                                            </div>
+                                            <p class="grid-product-price">$334</p>
+                                        </div>
+                                        <button class="btn grid-cart"> <i class="fas fa-shopping-cart"></i> </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row m-0">
+                                <div class="col-12 pagnation-box">
+                                    <ul class="pagination ">
+                                        <li class="page-item"><a class="page-link left-right-page " href="#"><i
+                                                    class="fas fa-chevron-left"></i></a></li>
+                                        <li class="page-item"><a class="page-link active" href="#">1</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                        <li class="page-item dot-item"><a class="page-link dot-page" href="#">
+                                                <i class="fas fa-circle mr-1"></i>
+                                                <i class="fas fa-circle mr-1"></i>
+                                                <i class="fas fa-circle mr-1"></i>
+                                                <i class="fas fa-circle mr-1"></i>
+                                            </a></li>
+                                        <li class="page-item"><a class="page-link" href="#">23</a></li>
+                                        <li class="page-item"><a class="page-link left-right-page" href="#"><i
+                                                    class="fas fa-chevron-right"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade " id="list-product-list">
+                            <div class="row list-box">
+                                <div class="col-12 list-view-box">
+                                    <div class="row">
+                                        <div class="col-3 list-img-btn">
+                                            <div class="image-box-list">
+                                                <img src="../images/eyedrops.svg">
+                                            </div>
+                                            <button class="btn add-cart-list"><i class="fas fa-shopping-cart"></i> Add
+                                                to cart</button>
+                                        </div>
+                                        <div class="col-9">
+                                            <p class="list-product-description">Innovo Deluxe iP900AP Fingertip Pulse
+                                                Oximeter with Plethysmograph and Perfusion Index (Off-White with Black)
+                                            </p>
+                                            <div class="star-price">
+                                                <div>
+                                                    <i class="fas fa-star yellow-star"></i>
+                                                    <i class="fas fa-star yellow-star"></i>
+                                                    <i class="fas fa-star yellow-star"></i>
+                                                    <i class="fas fa-star yellow-star"></i>
+                                                    <i class="fas fa-star gray-star"></i>
+                                                    <span>(41)</span>
+                                                    <img class="list-compare-btn ml-2" src="../images/compare.svg"
+                                                        data-toggle="tooltip" title="Add to compare">
+                                                    <i class="fas fa-heart list-product-love"></i>
+                                                </div>
+                                                <p class="grid-product-price">$334 <span>Save 20% with coupen</span></p>
+                                            </div>
+                                            <p class="save-with-coupen">Save 20% with coupen</p>
+                                            <p class="order-soon">Only 2 Left in stock - order soon</p>
+                                            <p class="vendor-details">Vendors Details</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 list-view-box">
+                                    <div class="row">
+                                        <div class="col-3 list-img-btn">
+                                            <div class="image-box-list">
+                                                <img src="../images/eyedrops.svg">
+                                            </div>
+                                            <button class="btn add-cart-list"><i class="fas fa-shopping-cart"></i> Add
+                                                to cart</button>
+                                        </div>
+                                        <div class="col-9">
+                                            <p class="list-product-description">Innovo Deluxe iP900AP Fingertip Pulse
+                                                Oximeter with Plethysmograph and Perfusion Index (Off-White with Black)
+                                            </p>
+                                            <div class="star-price">
+                                                <div>
+                                                    <i class="fas fa-star yellow-star"></i>
+                                                    <i class="fas fa-star yellow-star"></i>
+                                                    <i class="fas fa-star yellow-star"></i>
+                                                    <i class="fas fa-star yellow-star"></i>
+                                                    <i class="fas fa-star gray-star"></i>
+                                                    <span>(41)</span>
+                                                    <img class="list-compare-btn ml-2" src="../images/compare.svg"
+                                                        data-toggle="tooltip" title="Add to compare">
+                                                    <i class="fas fa-heart list-product-love"></i>
+                                                </div>
+                                                <p class="grid-product-price">$334</p>
+                                            </div>
+                                            <p class="save-with-coupen">Save 20% with coupen</p>
+                                            <p class="order-soon">Only 2 Left in stock - order soon</p>
+                                            <p class="vendor-details">Vendors Details</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 list-view-box">
+                                    <div class="row">
+                                        <div class="col-3 list-img-btn">
+                                            <div class="image-box-list">
+                                                <img src="../images/eyedrops.svg">
+                                            </div>
+                                            <button class="btn add-cart-list"><i class="fas fa-shopping-cart"></i> Add
+                                                to cart</button>
+                                        </div>
+                                        <div class="col-9">
+                                            <p class="list-product-description">Innovo Deluxe iP900AP Fingertip Pulse
+                                                Oximeter with Plethysmograph and Perfusion Index (Off-White with Black)
+                                            </p>
+                                            <div class="star-price">
+                                                <div>
+                                                    <i class="fas fa-star yellow-star"></i>
+                                                    <i class="fas fa-star yellow-star"></i>
+                                                    <i class="fas fa-star yellow-star"></i>
+                                                    <i class="fas fa-star yellow-star"></i>
+                                                    <i class="fas fa-star gray-star"></i>
+                                                    <span>(41)</span>
+                                                    <img class="list-compare-btn ml-2" src="../images/compare.svg"
+                                                        data-toggle="tooltip" title="Add to compare">
+                                                    <i class="fas fa-heart list-product-love"></i>
+                                                </div>
+                                                <p class="grid-product-price">$334</p>
+                                            </div>
+                                            <p class="save-with-coupen">Save 20% with coupen</p>
+                                            <p class="order-soon">Only 2 Left in stock - order soon</p>
+                                            <p class="vendor-details">Vendors Details</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 list-view-box">
+                                    <div class="row">
+                                        <div class="col-3 list-img-btn">
+                                            <div class="image-box-list">
+                                                <img src="../images/eyedrops.svg">
+                                            </div>
+                                            <button class="btn add-cart-list"><i class="fas fa-shopping-cart"></i> Add
+                                                to cart</button>
+                                        </div>
+                                        <div class="col-9">
+                                            <p class="list-product-description">Innovo Deluxe iP900AP Fingertip Pulse
+                                                Oximeter with Plethysmograph and Perfusion Index (Off-White with Black)
+                                            </p>
+                                            <div class="star-price">
+                                                <div>
+                                                    <i class="fas fa-star yellow-star"></i>
+                                                    <i class="fas fa-star yellow-star"></i>
+                                                    <i class="fas fa-star yellow-star"></i>
+                                                    <i class="fas fa-star yellow-star"></i>
+                                                    <i class="fas fa-star gray-star"></i>
+                                                    <span>(41)</span>
+                                                    <img class="list-compare-btn ml-2" src="../images/compare.svg"
+                                                        data-toggle="tooltip" title="Add to compare">
+                                                    <i class="fas fa-heart list-product-love"></i>
+                                                </div>
+                                                <p class="grid-product-price">$334</p>
+                                            </div>
+                                            <p class="save-with-coupen">Save 20% with coupen</p>
+                                            <p class="order-soon">Only 2 Left in stock - order soon</p>
+                                            <p class="vendor-details">Vendors Details</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 list-view-box">
+                                    <div class="row">
+                                        <div class="col-3 list-img-btn">
+                                            <div class="image-box-list">
+                                                <img src="../images/eyedrops.svg">
+                                            </div>
+                                            <button class="btn add-cart-list"><i class="fas fa-shopping-cart"></i> Add
+                                                to cart</button>
+                                        </div>
+                                        <div class="col-9">
+                                            <p class="list-product-description">Innovo Deluxe iP900AP Fingertip Pulse
+                                                Oximeter with Plethysmograph and Perfusion Index (Off-White with Black)
+                                            </p>
+                                            <div class="star-price">
+                                                <div>
+                                                    <i class="fas fa-star yellow-star"></i>
+                                                    <i class="fas fa-star yellow-star"></i>
+                                                    <i class="fas fa-star yellow-star"></i>
+                                                    <i class="fas fa-star yellow-star"></i>
+                                                    <i class="fas fa-star gray-star"></i>
+                                                    <span>(41)</span>
+                                                    <img class="list-compare-btn ml-2" src="../images/compare.svg"
+                                                        data-toggle="tooltip" title="Add to compare">
+                                                    <i class="fas fa-heart list-product-love"></i>
+                                                </div>
+                                                <p class="grid-product-price">$334</p>
+                                            </div>
+                                            <p class="save-with-coupen">Save 20% with coupen</p>
+                                            <p class="order-soon">Only 2 Left in stock - order soon</p>
+                                            <p class="vendor-details">Vendors Details</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 list-view-box">
+                                    <div class="row">
+                                        <div class="col-3 list-img-btn">
+                                            <div class="image-box-list">
+                                                <img src="../images/eyedrops.svg">
+                                            </div>
+                                            <button class="btn add-cart-list"><i class="fas fa-shopping-cart"></i> Add
+                                                to cart</button>
+                                        </div>
+                                        <div class="col-9">
+                                            <p class="list-product-description">Innovo Deluxe iP900AP Fingertip Pulse
+                                                Oximeter with Plethysmograph and Perfusion Index (Off-White with Black)
+                                            </p>
+                                            <div class="star-price">
+                                                <div>
+                                                    <i class="fas fa-star yellow-star"></i>
+                                                    <i class="fas fa-star yellow-star"></i>
+                                                    <i class="fas fa-star yellow-star"></i>
+                                                    <i class="fas fa-star yellow-star"></i>
+                                                    <i class="fas fa-star gray-star"></i>
+                                                    <span>(41)</span>
+                                                    <img class="list-compare-btn ml-2" src="../images/compare.svg"
+                                                        data-toggle="tooltip" title="Add to compare">
+                                                    <i class="fas fa-heart list-product-love"></i>
+                                                </div>
+                                                <p class="grid-product-price">$334</p>
+                                            </div>
+                                            <p class="save-with-coupen">Save 20% with coupen</p>
+                                            <p class="order-soon">Only 2 Left in stock - order soon</p>
+                                            <p class="vendor-details">Vendors Details</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 list-view-box">
+                                    <div class="row">
+                                        <div class="col-3 list-img-btn">
+                                            <div class="image-box-list">
+                                                <img src="../images/eyedrops.svg">
+                                            </div>
+                                            <button class="btn add-cart-list"><i class="fas fa-shopping-cart"></i> Add
+                                                to cart</button>
+                                        </div>
+                                        <div class="col-9">
+                                            <p class="list-product-description">Innovo Deluxe iP900AP Fingertip Pulse
+                                                Oximeter with Plethysmograph and Perfusion Index (Off-White with Black)
+                                            </p>
+                                            <div class="star-price">
+                                                <div>
+                                                    <i class="fas fa-star yellow-star"></i>
+                                                    <i class="fas fa-star yellow-star"></i>
+                                                    <i class="fas fa-star yellow-star"></i>
+                                                    <i class="fas fa-star yellow-star"></i>
+                                                    <i class="fas fa-star gray-star"></i>
+                                                    <span>(41)</span>
+                                                    <img class="list-compare-btn ml-2" src="../images/compare.svg"
+                                                        data-toggle="tooltip" title="Add to compare">
+                                                    <i class="fas fa-heart list-product-love"></i>
+                                                </div>
+                                                <p class="grid-product-price">$334</p>
+                                            </div>
+                                            <p class="save-with-coupen">Save 20% with coupen</p>
+                                            <p class="order-soon">Only 2 Left in stock - order soon</p>
+                                            <p class="vendor-details">Vendors Details</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 list-view-box">
+                                    <div class="row">
+                                        <div class="col-3 list-img-btn">
+                                            <div class="image-box-list">
+                                                <img src="../images/eyedrops.svg">
+                                            </div>
+                                            <button class="btn add-cart-list"><i class="fas fa-shopping-cart"></i> Add
+                                                to cart</button>
+                                        </div>
+                                        <div class="col-9">
+                                            <p class="list-product-description">Innovo Deluxe iP900AP Fingertip Pulse
+                                                Oximeter with Plethysmograph and Perfusion Index (Off-White with Black)
+                                            </p>
+                                            <div class="star-price">
+                                                <div>
+                                                    <i class="fas fa-star yellow-star"></i>
+                                                    <i class="fas fa-star yellow-star"></i>
+                                                    <i class="fas fa-star yellow-star"></i>
+                                                    <i class="fas fa-star yellow-star"></i>
+                                                    <i class="fas fa-star gray-star"></i>
+                                                    <span>(41)</span>
+                                                    <img class="list-compare-btn ml-2" src="../images/compare.svg"
+                                                        data-toggle="tooltip" title="Add to compare">
+                                                    <i class="fas fa-heart list-product-love"></i>
+                                                </div>
+                                                <p class="grid-product-price">$334</p>
+                                            </div>
+                                            <p class="save-with-coupen">Save 20% with coupen</p>
+                                            <p class="order-soon">Only 2 Left in stock - order soon</p>
+                                            <p class="vendor-details">Vendors Details</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 list-view-box">
+                                    <div class="row">
+                                        <div class="col-3 list-img-btn">
+                                            <div class="image-box-list">
+                                                <img src="../images/eyedrops.svg">
+                                            </div>
+                                            <button class="btn add-cart-list"><i class="fas fa-shopping-cart"></i> Add
+                                                to cart</button>
+                                        </div>
+                                        <div class="col-9">
+                                            <p class="list-product-description">Innovo Deluxe iP900AP Fingertip Pulse
+                                                Oximeter with Plethysmograph and Perfusion Index (Off-White with Black)
+                                            </p>
+                                            <div class="star-price">
+                                                <div>
+                                                    <i class="fas fa-star yellow-star"></i>
+                                                    <i class="fas fa-star yellow-star"></i>
+                                                    <i class="fas fa-star yellow-star"></i>
+                                                    <i class="fas fa-star yellow-star"></i>
+                                                    <i class="fas fa-star gray-star"></i>
+                                                    <span>(41)</span>
+                                                    <img class="list-compare-btn ml-2" src="../images/compare.svg"
+                                                        data-toggle="tooltip" title="Add to compare">
+                                                    <i class="fas fa-heart list-product-love"></i>
+                                                </div>
+                                                <p class="grid-product-price">$334</p>
+                                            </div>
+                                            <p class="save-with-coupen">Save 20% with coupen</p>
+                                            <p class="order-soon">Only 2 Left in stock - order soon</p>
+                                            <p class="vendor-details">Vendors Details</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 pagnation-box">
+                                    <ul class="pagination ">
+                                        <li class="page-item"><a class="page-link left-right-page " href="#"><i
+                                                    class="fas fa-chevron-left"></i></a></li>
+                                        <li class="page-item"><a class="page-link active" href="#">1</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                        <li class="page-item dot-item"><a class="page-link dot-page" href="#">
+                                                <i class="fas fa-circle mr-1"></i>
+                                                <i class="fas fa-circle mr-1"></i>
+                                                <i class="fas fa-circle mr-1"></i>
+                                                <i class="fas fa-circle mr-1"></i>
+                                            </a></li>
+                                        <li class="page-item"><a class="page-link" href="#">23</a></li>
+                                        <li class="page-item"><a class="page-link left-right-page" href="#"><i
+                                                    class="fas fa-chevron-right"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid wbp">
+        <div class="row">
+            <div class="col-12 featured-products">
+                <p>FEATURED PRODUCTS</p>
+            </div>
+        </div>
+        <div class="row sriper-products-row">
+            <div class="swiper-products">
+                <div class="swiper-wrapper products-wrapper">
+                    <div class="col-sm-3 col-6 swiper-slide grid-view-box gvb-slide">
+                        <div class="grid-img-box">
+                            <img src="../images/eyedrops.svg">
+                        </div>
+                        <p class="product-type">Beauty</p>
+                        <div class="name-compare-fav">
+                            <p class="grid-product-name">Eye Drops</p>
+                            <div class="grid-compare-love">
+                                <img src="../images/compare.svg" data-toggle="tooltip" title="Add to compare">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="star-price-cart">
+                            <div class="star-price">
+                                <div>
+                                    <i class="fas fa-star yellow-star"></i>
+                                    <i class="fas fa-star yellow-star"></i>
+                                    <i class="fas fa-star yellow-star"></i>
+                                    <i class="fas fa-star yellow-star"></i>
+                                    <i class="fas fa-star gray-star"></i>
+                                    <span>(41)</span>
+                                </div>
+                                <p class="grid-product-price">$334</p>
+                            </div>
+                            <button class="btn grid-cart"> <i class="fas fa-shopping-cart"></i> </button>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-6 swiper-slide grid-view-box gvb-slide">
+                        <div class="grid-img-box">
+                            <img src="../images/eyedrops.svg">
+                        </div>
+                        <p class="product-type">Beauty</p>
+                        <div class="name-compare-fav">
+                            <p class="grid-product-name">Eye Drops</p>
+                            <div class="grid-compare-love">
+                                <img src="../images/compare.svg" data-toggle="tooltip" title="Add to compare">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="star-price-cart">
+                            <div class="star-price">
+                                <div>
+                                    <i class="fas fa-star yellow-star"></i>
+                                    <i class="fas fa-star yellow-star"></i>
+                                    <i class="fas fa-star yellow-star"></i>
+                                    <i class="fas fa-star yellow-star"></i>
+                                    <i class="fas fa-star gray-star"></i>
+                                    <span>(41)</span>
+                                </div>
+                                <p class="grid-product-price">$334</p>
+                            </div>
+                            <button class="btn grid-cart"> <i class="fas fa-shopping-cart"></i> </button>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-6 swiper-slide grid-view-box gvb-slide">
+                        <div class="grid-img-box">
+                            <img src="../images/eyedrops.svg">
+                        </div>
+                        <p class="product-type">Beauty</p>
+                        <div class="name-compare-fav">
+                            <p class="grid-product-name">Eye Drops</p>
+                            <div class="grid-compare-love">
+                                <img src="../images/compare.svg" data-toggle="tooltip" title="Add to compare">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="star-price-cart">
+                            <div class="star-price">
+                                <div>
+                                    <i class="fas fa-star yellow-star"></i>
+                                    <i class="fas fa-star yellow-star"></i>
+                                    <i class="fas fa-star yellow-star"></i>
+                                    <i class="fas fa-star yellow-star"></i>
+                                    <i class="fas fa-star gray-star"></i>
+                                    <span>(41)</span>
+                                </div>
+                                <p class="grid-product-price">$334</p>
+                            </div>
+                            <button class="btn grid-cart"> <i class="fas fa-shopping-cart"></i> </button>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-6 swiper-slide grid-view-box gvb-slide">
+                        <div class="grid-img-box">
+                            <img src="../images/eyedrops.svg">
+                        </div>
+                        <p class="product-type">Beauty</p>
+                        <div class="name-compare-fav">
+                            <p class="grid-product-name">Eye Drops</p>
+                            <div class="grid-compare-love">
+                                <img src="../images/compare.svg" data-toggle="tooltip" title="Add to compare">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="star-price-cart">
+                            <div class="star-price">
+                                <div>
+                                    <i class="fas fa-star yellow-star"></i>
+                                    <i class="fas fa-star yellow-star"></i>
+                                    <i class="fas fa-star yellow-star"></i>
+                                    <i class="fas fa-star yellow-star"></i>
+                                    <i class="fas fa-star gray-star"></i>
+                                    <span>(41)</span>
+                                </div>
+                                <p class="grid-product-price">$334</p>
+                            </div>
+                            <button class="btn grid-cart"> <i class="fas fa-shopping-cart"></i> </button>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-6 swiper-slide grid-view-box gvb-slide">
+                        <div class="grid-img-box">
+                            <img src="../images/eyedrops.svg">
+                        </div>
+                        <p class="product-type">Beauty</p>
+                        <div class="name-compare-fav">
+                            <p class="grid-product-name">Eye Drops</p>
+                            <div class="grid-compare-love">
+                                <img src="../images/compare.svg" data-toggle="tooltip" title="Add to compare">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="star-price-cart">
+                            <div class="star-price">
+                                <div>
+                                    <i class="fas fa-star yellow-star"></i>
+                                    <i class="fas fa-star yellow-star"></i>
+                                    <i class="fas fa-star yellow-star"></i>
+                                    <i class="fas fa-star yellow-star"></i>
+                                    <i class="fas fa-star gray-star"></i>
+                                    <span>(41)</span>
+                                </div>
+                                <p class="grid-product-price">$334</p>
+                            </div>
+                            <button class="btn grid-cart"> <i class="fas fa-shopping-cart"></i> </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-custom-prev swiper-tb-prev product-swiper-prev ">
+                <i class="fas fa-chevron-left"></i>
+            </div>
+            <div class="swiper-custom-prev swiper-tb-next product-swiper-next ">
+                <i class="fas fa-chevron-right"></i>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid last-one ">
+        <div class="row footer">
+            <div class="col-3 contact-info">
+                <h5>Contact Info</h5>
+                <p><span>Email:</span> abc@gmail.com</p>
+                <p><span>Phone:</span> +92 (33) 120 67055</p>
+                <p><span>Address:</span> 1418 Riverwood Drive, Suite 3245 Cottonwood, UAE</p>
+                <p style="margin: 0.5vw;"><span>We accept:</span></p>
+
+                <p>
+                    <i class="fab fa-cc-visa"></i>
+                    <i class="fab fa-cc-mastercard"></i>
+                    <i class="fab fa-cc-paypal"></i>
+                    <i class="fab fa-cc-amazon-pay"></i>
+                    <i class="fab fa-cc-jcb"></i>
+                </p>
+
+            </div>
+            <div class="col-2 get-help">
+                <h5>Get Help</h5>
+                <p>Shipping Policy</p>
+                <p>Terms & Conditions</p>
+                <p>Returns & Refunds</p>
+                <p>Information Privacy</p>
+                <p>FAQs</p>
+            </div>
+            <div class="col-7 stay-in-touch">
+                <h5>Let’s stay in touch</h5>
+                <p>Keep up to date with our latest news and special offers.</p>
+                <div class="input-group email-address">
+                    <input type="text" class="form-control" placeholder=" Your email address"
+                        style="font-size: 0.85vw;">
+                    <div class="input-group-append subscribe-option">
+                        <span class="input-group-text">Subscribe</span>
+                    </div>
+                </div>
+                <div class="seller-buyer">
+                    <div class="seller">
+                        <p>How to Register as a seller</p>
+                        <div class="footer-video-box">
+                            <a class="popup-youtube-1" href="https://www.youtube.com/watch?v=iKtk_sj3Ul0"
+                                data-effect="fadeIn">
+                                <i class="fas fa-play-circle"></i>
+                            </a>
+                            <div class="fvb-time">6:13</div>
+                        </div>
+                    </div>
+                    <div class="seller">
+                        <p>How to Register as a seller</p>
+                        <div class="footer-video-box">
+                            <a class="popup-youtube-2" href="https://www.youtube.com/watch?v=iKtk_sj3Ul0"
+                                data-effect="fadeIn">
+                                <i class="fas fa-play-circle"></i>
+                            </a>
+                            <div class="fvb-time">6:13</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row solution-approval">
+            <div class="col-3 solution">
+                <p>© 2020 5D Solutions </p>
+            </div>
+            <div class="col-9 approval">
+                <p>Approvals and affiliations </p>
+                <i class="fab fa-cc-visa"></i>
+                <i class="fab fa-cc-mastercard"></i>
+                <i class="fab fa-cc-paypal"></i>
+                <i class="fab fa-cc-amazon-pay"></i>
+                <i class="fab fa-cc-jcb"></i>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid extra-footer-mob bn-hide-all">
+        <div class="row m-0">
+            <div class="col-12 py-0 px-3">
+                <div class="xf-head-edit xf-head-1">Contact Info <i class="fas fa-plus"></i></div>
+                <div class="xf-content-edit xf-content-1">
+                    <p><span>Email:</span> abc@gmail.com</p>
+                    <p><span>Phone:</span> +92 (33) 120 67055</p>
+                    <p><span>Address:</span> 1418 Riverwood Drive, Suite 3245 Cottonwood, UAE</p>
+                </div>
+            </div>
+            <div class="col-12 py-0 px-3">
+                <div class="xf-head-edit xf-head-2">Get Help <i class="fas fa-plus"></i></div>
+                <div class="xf-content-edit xf-content-2">
+                    <p>Shipping Policy</p>
+                    <p>Terms & Conditions</p>
+                    <p>Returns & Refunds</p>
+                    <p>Information Privacy</p>
+                    <p>FAQ</p>
+                </div>
+            </div>
+            <div class="col-12 py-0 px-3">
+                <div class="xf-head-edit xf-head-3">Newsletter Signup <i class="fas fa-plus"></i></div>
+                <div class="xf-content-edit xf-content-3">
+                    <p>Keep up to date with our latest news and special offers.</p>
+                    <div class="xf-input-box">
+                        <input type="text" class="form-control">
+                        <button class="btn">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 py-0 mb-3 px-3">
+                <div class="xf-head-edit xf-head-4">How to register Video Guides <i class="fas fa-plus"></i></div>
+                <div class="xf-content-edit xf-content-4">
+                    <p class="my-2">How to Register as a Seller</p>
+                    <a href="https://www.youtube.com/watch?v=iKtk_sj3Ul0">
+                        <img src="../images/xf-img.svg">
+                    </a>
+                    <p class="my-2">How to Register as a Buyer</p>
+                    <a href="https://www.youtube.com/watch?v=iKtk_sj3Ul0">
+                        <img src="../images/xf-img.svg">
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 py-0 px-3 xf-last-box">
+                <p>Approvals and affiliations</p>
+                <span>
+                    <i class="fab fa-cc-visa"></i>
+                    <i class="fab fa-cc-mastercard"></i>
+                    <i class="fab fa-cc-paypal"></i>
+                    <i class="fab fa-cc-amazon-pay"></i>
+                    <i class="fab fa-cc-jcb"></i>
+                </span>>
+                <p>© 2020 JASAD Medical </p>
+                <a href="#page-top" class="top-go link-switch"><i class="fas fa-chevron-up"></i></a>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="../js/jquery.js"></script>
+    <script src="../js/swiper.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"
+        integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w=="
+        crossorigin="anonymous"></script>
+
+
+
+
+    <script>
+        $(".sbh-1").click(function () {
+            $(".sbc-1").slideToggle(500);
+        });
+        $(".sbh-2").click(function () {
+            $(".sbc-2").slideToggle(1000);
+        });
+    </script>
+    <script>
+        $(".popup-youtube-1").magnificPopup({
+            disableOn: 700,
+            type: "iframe",
+            mainClass: "mfp-fade",
+            removalDelay: 160,
+            preloader: false,
+            fixedContentPos: false,
+            iframe: {
+                patterns: {
+                    youtube: {
+                        index: "youtube.com/",
+                        id: function (url) {
+                            var m = url.match(/[\\?\\&]v=([^\\?\\&]+)/);
+                            if (!m || !m[1]) return null;
+                            return m[1];
+                        },
+                        src: "https://www.youtube.com/embed/%id%?autoplay=1",
+                    },
+                },
+            },
+        });
+
+        $(".popup-youtube-2").magnificPopup({
+            disableOn: 700,
+            type: "iframe",
+            mainClass: "mfp-fade",
+            removalDelay: 160,
+            preloader: false,
+            fixedContentPos: false,
+            iframe: {
+                patterns: {
+                    youtube: {
+                        index: "youtube.com/",
+                        id: function (url) {
+                            var m = url.match(/[\\?\\&]v=([^\\?\\&]+)/);
+                            if (!m || !m[1]) return null;
+                            return m[1];
+                        },
+                        src: "https://www.youtube.com/embed/%id%?autoplay=1",
+                    },
+                },
+            },
+        });
+
+    </script>
+
+    <script>
+        function myFunction(x) {
+            if (x.matches) { // mobile
+                var swiper = new Swiper('.swiper-products', {
+                    navigation: {
+                        nextEl: '.product-swiper-next',
+                        prevEl: '.product-swiper-prev',
+                    },
+                    slidesPerView: "2",
+                    loop: true,
+                });
+            } else { // desktop
+                var swiper = new Swiper('.swiper-products', {
+                    navigation: {
+                        nextEl: '.product-swiper-next',
+                        prevEl: '.product-swiper-prev',
+                    },
+                    slidesPerView: "4",
+                    loop: true,
+                });
+            }
+        }
+        var x = window.matchMedia("(max-width: 500px)")
+        myFunction(x) // Call listener function at run time
+        x.addListener(myFunction) // Attach listener function on state changes
+    </script>
+
+
+    <script>
+        function myFunction(x) {
+            if (x.matches) { // mobile
+                var swiper = new Swiper('.top-brands-swiper', {
+                    navigation: {
+                        nextEl: '.swiper-tb-next',
+                        prevEl: '.swiper-tb-prev',
+                    },
+                    slidesPerView: "3",
+                    loop: true,
+                });
+            } else { // desktop
+                var swiper = new Swiper('.top-brands-swiper', {
+                    navigation: {
+                        nextEl: '.swiper-tb-next',
+                        prevEl: '.swiper-tb-prev',
+                    },
+                    slidesPerView: "6",
+                    loop: true,
+                });
+            }
+        }
+        var x = window.matchMedia("(max-width: 500px)")
+        myFunction(x) // Call listener function at run time
+        x.addListener(myFunction) // Attach listener function on state changes
+    </script>
+    <script>
+        /* $("#lan-btn").click(function(){
+        $("#lan-up-down").toggleClass("fa-chevron-down");
+        $("#lan-up-down").toggleClass("fa-chevron-up");
+        }); */
+        if ($("#languages-dropdown").hasClass("show")) {
+            console.log("llllllllllllloooooooooooollllllllllll");
+            $("#lan-up-down").addClass(".fa-chevron-up");
+            $("#lan-up-down").removeClass(".fa-chevron-down");
+        } else {
+            $("#lan-up-down").removeClass(".fa-chevron-up");
+            $("#lan-up-down").addClass(".fa-chevron-down");
+        }
+    </script>
+    <script>
+        $(".hbq-1").click(function () {
+            $(".hba-1").slideToggle(500);
+            $(".hbq-1 div i").toggleClass("fa-minus fa-plus");
+        });
+        $(".hbq-2").click(function () {
+            $(".hba-2").slideToggle(500);
+            $(".hbq-2 div i").toggleClass("fa-minus fa-plus");
+        });
+        $(".hbq-3").click(function () {
+            $(".hba-3").slideToggle(500);
+            $(".hbq-3 div i").toggleClass("fa-minus fa-plus");
+        });
+        $(".hbq-4").click(function () {
+            $(".hba-4").slideToggle(500);
+            $(".hbq-4 div i").toggleClass("fa-minus fa-plus");
+        });
+        $(".hbq-5").click(function () {
+            $(".hba-5").slideToggle(500);
+            $(".hbq-5 div i").toggleClass("fa-minus fa-plus");
+        });
+        $(".hbq-6").click(function () {
+            $(".hba-6").slideToggle(500);
+            $(".hbq-6 div i").toggleClass("fa-minus fa-plus");
+        });
+        $(".hbq-7").click(function () {
+            $(".hba-7").slideToggle(500);
+            $(".hbq-7 div i").toggleClass("fa-minus fa-plus");
+        });
+        $(".hbq-8").click(function () {
+            $(".hba-8").slideToggle(500);
+            $(".hbq-8 div i").toggleClass("fa-minus fa-plus");
+        });
+        $(".hbq-9").click(function () {
+            $(".hba-9").slideToggle(500);
+            $(".hbq-9 div i").toggleClass("fa-minus fa-plus");
+        });
+    </script>
+
+    <script>
+        $(".mob-filter-click").click(function () {
+            $(".bn-black-body").css({ "display": "flex" });
+            $(".mob-filter-container").css({ "display": "block" });
+            $("body").css({ "overflow-y": "hidden" });
+        });
+        $(".bn-black-body").click(function () {
+            $(".bn-black-body").css({ "display": "none" });
+            $(".mob-filter-container").css({ "display": "none" });
+            $("body").css({ "overflow-y": "auto" });
+        });
+    </script>
+
+    <script>
+        $(".bn-show").click(function () {
+            $(".bn-show").css({ "display": "none" });
+            $(".bn-hide").css({ "display": "flex" });
+            $(".bars-nav-box").css({ "display": "flex" });
+            $(".bn-black-body").css({ "display": "flex" });
+            $("body").css({ "overflow-y": "hidden" });
+        });
+        $(".bn-hide-all").click(function () {
+            $(".bn-show").css({ "display": "flex" });
+            $(".bn-hide").css({ "display": "none" });
+            $(".bars-nav-box").css({ "display": "none" });
+            $(".bn-black-body").css({ "display": "none" });
+            $("body").css({ "overflow-y": "auto" });
+        });
+    </script>
+    <script>
+        $(".bn-show-2").click(function () {
+            $(".bn-show-2").css({ "display": "none" });
+            $(".bn-hide-2").css({ "display": "flex" });
+            $(".bars-nav-box-2").css({ "display": "flex" });
+            $(".bn-black-body").css({ "display": "flex" });
+            $("body").css({ "overflow-y": "hidden" });
+        });
+        $(".bn-hide-all-2").click(function () {
+            $(".bn-show-2").css({ "display": "flex" });
+            $(".bn-hide-2").css({ "display": "none" });
+            $(".bars-nav-box-2").css({ "display": "none" });
+            $(".bn-black-body").css({ "display": "none" });
+            $("body").css({ "overflow-y": "auto" });
+        });
+    </script>
+    <script>
+        $(".jsd-nav-col-open-1").click(function () {
+            $(".jsd-nav-col-1").slideToggle(500);
+            $(".jsd-nav-col-open-1 i").toggleClass("fa-plus");
+            $(".jsd-nav-col-open-1 i").toggleClass("fa-minus");
+        });
+        $(".jsd-nav-col-open-2").click(function () {
+            $(".jsd-nav-col-2").slideToggle(500);
+            $(".jsd-nav-col-open-2 i").toggleClass("fa-plus");
+            $(".jsd-nav-col-open-2 i").toggleClass("fa-minus");
+        });
+        $(".jsd-nav-col-open-3").click(function () {
+            $(".jsd-nav-col-3").slideToggle(500);
+            $(".jsd-nav-col-open-3 i").toggleClass("fa-plus");
+            $(".jsd-nav-col-open-3 i").toggleClass("fa-minus");
+        });
+    </script>
+    <script>
+        $(".xf-head-1").click(function () {
+            $(".xf-content-1").slideToggle(500);
+            $(".xf-head-1 i").toggleClass("fa-plus");
+            $(".xf-head-1 i").toggleClass("fa-minus");
+        });
+        $(".xf-head-2").click(function () {
+            $(".xf-content-2").slideToggle(500);
+            $(".xf-head-2 i").toggleClass("fa-plus");
+            $(".xf-head-2 i").toggleClass("fa-minus");
+        });
+        $(".xf-head-3").click(function () {
+            $(".xf-content-3").slideToggle(500);
+            $(".xf-head-3 i").toggleClass("fa-plus");
+            $(".xf-head-3 i").toggleClass("fa-minus");
+        });
+        $(".xf-head-4").click(function () {
+            $(".xf-content-4").slideToggle(500);
+            $(".xf-head-4 i").toggleClass("fa-plus");
+            $(".xf-head-4 i").toggleClass("fa-minus");
+        });
+    </script>
+
+    <script>
+        $(".ct-text").click(function () {
+
+            $(this).children("span").children("a").slideToggle(500);
+            $(this).children("div").children("i").toggleClass("fa-chevron-right , fa-chevron-up");
+        })
+    </script>
+    <script>
+        $(".git-trigger").click(function () {
+            $(".get-in-touch").toggleClass("get-in-touch-tog");
+        });
+        $(".git-cross").click(function () {
+            $(".get-in-touch").toggleClass("get-in-touch-tog ");
+        });
+    </script>
+</body>
+
+</html>

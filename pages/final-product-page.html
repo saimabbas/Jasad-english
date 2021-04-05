@@ -1,0 +1,1073 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Detail Page</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/bootstrap.css.map">
+    <link rel="stylesheet" href="../css/all.css">
+    <link rel="stylesheet" href="../css/swiper.css">
+    <link rel="stylesheet" href="../css/jasad.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" integrity="sha512-WEQNv9d3+sqyHjrqUZobDhFARZDko2wpWdfcpv44lsypsSuMO0kHGd3MQ8rrsBn/Qa39VojphdU6CMkpJUmDVw==" crossorigin="anonymous" />
+</head>
+<body>
+    
+    <div class="bn-black-body bn-hide-all bn-hide-all-2"></div>
+    <div class="bars-nav-box wow animated backInRight">
+        <a href="#" class="jsd-nav-col-open-1">Home<i class="fas fa-plus"></i></a>
+        <div class="jsd-nav-col-1">
+            <a href="#"><span>Home Link 1</span></a>
+            <a href="#"><span>Home Link 2</span></a>
+            <a href="#"><span>Home Link 3</span></a>
+        </div>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="#">List</a>
+        <a href="#" class="jsd-nav-col-open-2">For Buyers<i class="fas fa-plus"></i></a>
+        <div class="jsd-nav-col-2">
+            <a href="#"><span>Buyers Link 1</span></a>
+            <a href="#"><span>Buyers Link 2</span></a>
+            <a href="#"><span>Buyers Link 3</span></a>
+        </div>
+        <a href="#" class="jsd-nav-col-open-3">For Sellers<i class="fas fa-plus"></i></a>
+        <div class="jsd-nav-col-3">
+            <a href="#"><span>Sellers Link 1</span></a>
+            <a href="#"><span>Sellers Link 2</span></a>
+            <a href="#"><span>Sellers Link 3</span></a>
+        </div>
+    </div>
+    <div class="bars-nav-box-2 wow animated backInRight">
+        <div class="bn-signin-box">
+            <i class="far fa-user"></i> Sign In 
+        </div>
+        <h1>Sign Up</h1>
+        <a href="#">As a Seller</a>
+        <a href="#">As a Buyer</a>
+        
+    </div>
+    <div class="container-fluid whole-body-padding bn-hide-all">
+        <div class="row nav-top" id="page-top">
+            <div class="col-6 contact-us">
+                <i class="fas fa-phone-alt mr-1"></i>
+                 CONTACT US : (1800) 000 8808
+            </div>
+            <div class= "col-6 icons-top it-mob">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-youtube"></i>
+                <i class="fas fa-wifi" style="margin-right: 3vw;"></i>
+             
+                <div class="dropdown language">
+                    <button type="button" class="btn   dropdown-toggle" data-toggle="dropdown">
+                    <i class="fas fa-globe "></i>
+                      <span>LANGUAGE</span>
+                      <i class="fas fa-chevron-down nav-btn-down"></i>
+                    </button>
+                    <div class="dropdown-menu" id="languages-dropdown">
+                      <a class="dropdown-item" href="#">English</a>
+                      <a class="dropdown-item" href="#">العربية</a>
+                    </div>
+                  </div>
+                  <div class="dropdown country">
+                    <button type="button" class="btn  dropdown-toggle" data-toggle="dropdown">
+                        <i class="fas fa-map-marked-alt " ></i>
+                      <span>COUNTRY</span>
+                      <i class="fas fa-chevron-down nav-btn-down"></i>
+                    </button>
+                    <div class="dropdown-menu" id="country-dropdown">
+                      <a class="dropdown-item" href="#"><img src="../images/saudi.svg" > KSA TO SAR</a>
+                      <a class="dropdown-item" href="#"><img src="../images/uae.svg" > UAE TO AED</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid wbp">
+        <div class="row nav-top-2">
+            <div class="col-1 logo-box">
+                <img src="../images/jasadlogo.svg">
+            </div>
+            <div class="col-7 nav-items">
+                <div class="dropdown home">
+                    <button type="button " class="btn home-nav-button bottom-nav-active dropdown-toggle" data-toggle="dropdown">
+                      HOME
+                      <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="dropdown-menu" id="home-drop">
+                      <a class="dropdown-item" href="#">Link 1</a>
+                      <a class="dropdown-item" href="#">Link 2</a>
+                      <a class="dropdown-item" href="#">Link 3</a>
+                    </div>
+                  </div>
+                <a href="">ABOUT</a>
+                <a href="">CONTACT</a>
+                <a href="">LIST</a>
+                <div class="dropdown home">
+                    <button type="button " class="btn home-nav-button  dropdown-toggle"   data-toggle="dropdown">
+                      FOR BUYERS
+                      <i class="fas fa-chevron-down" ></i>
+                    </button>
+                    <div class="dropdown-menu" id="buyers-drop">
+                      <a class="dropdown-item" href="#">Link 1</a>
+                      <a class="dropdown-item" href="#">Link 2</a>
+                      <a class="dropdown-item" href="#">Link 3</a>
+                    </div>
+                  </div>
+                  <div class="dropdown home">
+                    <button type="button " class="btn home-nav-button dropdown-toggle"   data-toggle="dropdown">
+                      FOR SELLERS
+                      <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="dropdown-menu" id="sellers-drop">
+                      <a class="dropdown-item" href="#">Link 1</a>
+                      <a class="dropdown-item" href="#">Link 2</a>
+                      <a class="dropdown-item" href="#">Link 3</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-4 col-12 sign-cart-up">
+
+                <div class="bars-nav">
+                    <i class="fas fa-bars bn-show"></i>
+                    <i class="fas fa-times bn-hide-all bn-hide"></i>
+                </div>
+                <img class="jasadlogomob" src="../images/jasadlogo.svg">
+                <div class="display-flex">
+                    <div class="sign-icon bn-show-2">
+                        <i class="far fa-user"></i>
+                        <span>Sign In</span>
+        
+                    </div>
+                    <div class="list-of-nav">
+                        <img src="../images/list-nav.svg">
+                        <div class="list-nav-content ml-1">
+                            <p>My Cart </p>
+                            <span>23</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dropdown language sign-up-mob">
+                    <button type="button" class="btn   dropdown-toggle sign-up-box" data-toggle="dropdown">
+                      SIGN UP
+                      <i class="fas fa-chevron-down mx-2 "></i>
+                    </button>
+                    <div class="dropdown-menu " id="seller-buyer">
+                      <a class="dropdown-item" href="#">As Buyer</a>
+                      <a class="dropdown-item" href="#">As Seller</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid back-gray baack-gray-mob  bn-hide-all" >
+        <div class="row ">
+          <div class="col-12 text-center bread-crumbs-row ">
+            <a class="equiplink active">Home</a>
+            / 
+            <a class="equiplink">About</a>
+          </div>
+        </div>
+    </div>
+    <div class="mob-filter-container">
+        <div class="col-12">
+            <div class="row side-bar-con">
+                <div class="col-12 side-bar-head sbh-1">
+                    <p>Filters </p>
+                </div>
+                <div class="col-12 mob-filter-clear">
+                    <p>Filters applied : 3</p>
+                    <span><i class="fas fa-times"></i> Clear all</span>
+                </div>
+                <div class="col-12 category-list sbc-1">
+                    <div class="row ctt-box product-type">
+                        <div class="col-10">
+                            <p class="">Shop by Category</p>
+                        </div>
+                        <div class="col-12 ct-text"><div>Medicine/Company <i class="fas fa-chevron-right"></i></div>
+                        <span>
+                            <a href="#">This is link no. 1</a>
+                            <a href="#">This is link no. 2</a>
+                            <a href="#">This is link no. 3</a>
+                        </span>
+                        </div>
+                        <div class="col-12 ct-text"><div>Medicine/Company <i class="fas fa-chevron-right"></i></div>
+                        <span>
+                            <a href="#">This is link no. 1</a>
+                            <a href="#">This is link no. 2</a>
+                            <a href="#">This is link no. 3</a>
+                        </span>
+                        </div>
+                        <div class="col-12 ct-text"><div>Medicine/Company <i class="fas fa-chevron-right"></i></div>
+                        <span>
+                            <a href="#">This is link no. 1</a>
+                            <a href="#">This is link no. 2</a>
+                            <a href="#">This is link no. 3</a>
+                        </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 category-list sbc-1">
+                    
+                    <div class="row product-type">
+                        <div class="col-10">
+                            <p class="">Product type</p>
+                        </div>
+                        <div class="col-11">
+                            <div class="custom-control custom-checkbox">
+                                <input id="medical" type="checkbox" checked>
+                                <label for="medical" >Medical</label>
+                            </div>
+                        </div>
+                        <div class="col-11">
+                            <div class="custom-control custom-checkbox">
+                                <input id="non-medical" type="checkbox">
+                                <label for="non-medical">Non-Medical</label>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-12 category-list brand-fliter sbc-2">
+                    <div class="row product-type">
+                        <div class="col-10">
+                            <p class="">Brand</p>
+                        </div>
+                        <div class="col-11">
+                            <div class="custom-control custom-checkbox">
+                                <input id="b-1" type="checkbox">
+                                <label for="b-1">Brand Name</label>
+                            </div>
+                        </div>
+                        <div class="col-11">
+                            <div class="custom-control custom-checkbox">
+                                <input id="b-2" type="checkbox" checked>
+                                <label for="b-2">Brand Name</label>
+                            </div>
+                        </div>
+                        <div class="col-11">
+                            <div class="custom-control custom-checkbox">
+                                <input id="b-3" type="checkbox">
+                                <label for="b-3">Brand Name</label>
+                            </div>
+                        </div>
+                        <div class="col-11">
+                            <div class="custom-control custom-checkbox">
+                                <input id="b-4" type="checkbox">
+                                <label for="b-4">Brand Name</label>
+                            </div>
+                        </div>
+                        <div class="col-11">
+                            <div class="custom-control custom-checkbox">
+                                <input id="b-5" type="checkbox">
+                                <label for="b-5">Brand Name</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 category-list brand-fliter sbc-2">
+                    <div class="row product-type">
+                        <div class="col-10">
+                            <p class="">Price</p>
+                        </div>
+                        <div class="col-10 fp-min-max">
+                            <input type="number" class="form-control" placeholder="Min">
+                            <p>-</p>
+                            <input type="number" class="form-control" placeholder="Max">
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 category-list brand-fliter sbc-2">
+                    <div class="row product-type">
+                        <div class="col-10">
+                            <p class="">Service</p>
+                        </div>
+                        <div class="col-11">
+                            <div class="custom-control custom-checkbox">
+                                <input id="s-1" type="checkbox">
+                                <label for="s-1">Installment</label>
+                            </div>
+                        </div>
+                        <div class="col-11">
+                            <div class="custom-control custom-checkbox">
+                                <input id="s-2" type="checkbox" checked>
+                                <label for="s-2">Cash On Delivery</label>
+                            </div>
+                        </div>
+                        <div class="col-11">
+                            <div class="custom-control custom-checkbox">
+                                <input id="s-3" type="checkbox">
+                                <label for="s-3">Rapid Delivery</label>
+                            </div>
+                        </div>
+                        <div class="col-11">
+                            <div class="custom-control custom-checkbox">
+                                <input id="s-4" type="checkbox">
+                                <label for="s-4">Free Delivery</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 category-list brand-fliter sbc-2">
+                    <div class="row product-type">
+                        <div class="col-10">
+                            <p class="">Year of Expiry</p>
+                        </div>
+                        <div class="col-11">
+                            <div class="custom-control custom-checkbox">
+                                <input id="y-1" type="checkbox" checked>
+                                <label for="y-1">2020</label>
+                            </div>
+                        </div>
+                        <div class="col-11">
+                            <div class="custom-control custom-checkbox">
+                                <input id="y-2" type="checkbox">
+                                <label for="y-2">2019</label>
+                            </div>
+                        </div>
+                        <div class="col-11">
+                            <div class="custom-control custom-checkbox">
+                                <input id="y-3" type="checkbox">
+                                <label for="y-3">2018</label>
+                            </div>
+                        </div>
+                        <div class="col-11">
+                            <div class="custom-control custom-checkbox">
+                                <input id="y-4" type="checkbox">
+                                <label for="y-4">2017</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 category-list brand-fliter sbc-2">
+                    <div class="row product-type">
+                        <div class="col-10">
+                            <p class="">Health & Personal Care Format</p>
+                        </div>
+                        <div class="col-11">
+                            <div class="custom-control custom-checkbox">
+                                <input id="hpcf-1" type="checkbox">
+                                <label for="hpcf-1">Capsules</label>
+                            </div>
+                        </div>
+                        <div class="col-11">
+                            <div class="custom-control custom-checkbox">
+                                <input id="hpcf-2" type="checkbox">
+                                <label for="hpcf-2">Chewables</label>
+                            </div>
+                        </div>
+                        <div class="col-11">
+                            <div class="custom-control custom-checkbox">
+                                <input id="hpcf-3" type="checkbox" checked>
+                                <label for="hpcf-3">Creams</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 category-list brand-fliter sbc-2">
+                    <div class="row product-type average-review">
+                        <div class="col-10">
+                            <p class="">Avg. Customer Review</p>
+                        </div>
+                        <div class="col-11">
+                            <div class="custom-control custom-checkbox">
+                                <input id="acr-1" type="checkbox" checked>
+                                <label for="acr-1">
+                                    <i class="fas fa-star yellow-star"></i>
+                                    <i class="fas fa-star yellow-star"></i>
+                                    <i class="fas fa-star yellow-star"></i>
+                                    <i class="fas fa-star yellow-star"></i>
+                                    <i class="fas fa-star gray-star"></i>
+                                    &Up
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-11">
+                            <div class="custom-control custom-checkbox">
+                                <input id="acr-2" type="checkbox">
+                                <label for="acr-2">
+                                    <i class="fas fa-star yellow-star"></i>
+                                    <i class="fas fa-star yellow-star"></i>
+                                    <i class="fas fa-star yellow-star"></i>
+                                    <i class="fas fa-star gray-star"></i>
+                                    <i class="fas fa-star gray-star"></i>
+                                    &Up
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-11">
+                            <div class="custom-control custom-checkbox">
+                                <input id="acr-3" type="checkbox">
+                                <label for="acr-3">
+                                    <i class="fas fa-star yellow-star"></i>
+                                    <i class="fas fa-star yellow-star"></i>
+                                    <i class="fas fa-star gray-star"></i>
+                                    <i class="fas fa-star gray-star"></i>
+                                    <i class="fas fa-star gray-star"></i>
+                                    &Up
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-11">
+                            <div class="custom-control custom-checkbox">
+                                <input id="acr-4" type="checkbox">
+                                <label for="acr-4">
+                                    <i class="fas fa-star yellow-star"></i>
+                                    <i class="fas fa-star gray-star"></i>
+                                    <i class="fas fa-star gray-star"></i>
+                                    <i class="fas fa-star gray-star"></i>
+                                    <i class="fas fa-star gray-star"></i>
+                                    &Up
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid wbp">
+        <div class="row product-request-l">
+            <div class="col-sm-9 col-8 offset-sm-1 offset-0 search-10" >
+                <div class="input-group product-box-detail " >
+                    <div class="input-group-prepend p-0" >
+                        <select class="form-control">
+                            <option>All categories</option>
+                            <option>Saudi Arabia</option>
+                            <option>Iraq</option>
+                            <option>Iran</option>
+                            <option>India</option>
+                            <option>USA</option>
+                            <option>China</option>
+                            <option>England</option>
+                            <option>Korea</option>
+                          </select>
+                      </div>
+                    <input type="text" class="form-control" placeholder="Search Products...">
+                    <div class="input-group-append" >
+                      <span class="input-group-text igt-2" ><i class="fas fa-search"></i></span>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-2  request-l">
+                <img src="../images/post.svg" alt="">
+                <span>Post your request</span>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid back-gray" >
+        <div class="row ">
+          <div class="col-12 text-center bread-crumbs-row ">
+            <a class="equiplink active">Home </a>
+            / 
+            <a class="equiplink" id="barequippage1"> Medical Equipments</a>
+          </div>
+        </div>
+    </div>
+
+    <div class="container-fluid wbp" id="productpage">
+        <div class="row his-row">
+            <div class="col-sm-5 col-12 listimg">
+                <div class="showzoom" href="../images/product-img-1.svg">
+                    <img src="../images/product-img-1.svg" id="show-img">  
+                </div>
+                <div class="small-img">
+                    <div class="small-container">
+                    <div id="small-img-roll" class="abc">
+                        <img src="../images/product-img-1.svg" class="show-small-img ml-0" alt="">
+                        <img src="../images/product-img-2.svg" class="show-small-img" alt="">
+                        <img src="../images/product-img-3.svg" class="show-small-img" alt="">
+                        <img src="../images/product-img-3.svg" class="show-small-img" alt="">
+                        <img src="../images/product-img-3.svg" class="show-small-img" alt="">
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-7 col-12">
+                <h4 class="card-title">Innovo Deluxe iP900AP Fingertip Pulse Oximeter with Plethysmograph and Perfusion Index (Off-White with Black)</h4>
+                <div class="row ratings-row ">
+                  <div class="fpg-star-reviews col-6">
+                    <i class="fas fa-star yellow-star"></i>
+                    <i class="fas fa-star yellow-star"></i>
+                    <i class="fas fa-star yellow-star"></i>
+                    <i class="fas fa-star gray-star"></i>
+                    <i class="fas fa-star gray-star"></i>
+                    <span>41 reviews</span>
+                  </div>
+                  <div class="col-6 gcl-box">
+                    <div class="grid-compare-love">
+                        <img src="../images/compare.svg" data-toggle="tooltip" title="Add to compare">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="row price-row">
+                    <div class="col-6  p-0">
+                        <p class="fpg-price">$499 <del>$599</del> </p>
+                    </div>
+                    <div class="col-6 p-0 fpg-expected-delivery">
+                        <p >Expected Delivery: 3-5 days*</p>   
+                    </div>
+                </div>
+                <div class="row">
+                  <div class="col-6 text-left p-0">
+                    <p class="if-applicable">Inclusive of VAT (if applicable)</p>
+                  </div>
+                  <div class="col-6 text-right p-0">
+                    <p class="fpg-free">Free shipping</p>   
+                  </div>
+                </div>
+                <div class="row fpg-head-text">
+                  <div class="col-3">
+                    <p class="fpg-head">Availability:</p>
+                  </div>
+                  <div class="col-6">
+                    <p class="fpg-text">In stock</p>
+                  </div>
+                </div>
+                <div class="row fpg-head-text">
+                  <div class="col-3">
+                    <p class="fpg-head">Sold By:</p>
+                  </div>
+                  <div class="col-6">
+                    <p class="fpg-text">Store Name</p>
+                  </div>
+                </div>
+                <div class="row ap-box">
+                  <div class="col-6 offset-3 all-products">
+                    <p class="fpg-all-products">All product by this vendor</p>
+                  </div>
+                </div>   
+                <div class="row">
+                    <div class="col-12 end-edits-btn-counter">
+                        <div class=" fpg-counter-bar col-sm-3 col-4">     
+                            <div class="input-group ">
+                                <div class="input-group-append ">
+                                    <div  class="input-group-text" id="decrease" onclick="decreaseValue()" >-</div> 
+                                </div>
+                                <input type="number" id="number" value="2" class="form-control  productquantity " readonly>
+                                <div class="input-group-append ">
+                                    <div  class="input-group-text" id="increase" onclick="increaseValue()" >+</div> 
+                                </div>
+                            </div>
+                      </div>
+                      <div class="btn-cart-list">
+                        <button href="#" class="btn "> Add to cart </button>
+                      </div>
+                    </div>
+                </div>  
+            </div>
+        </div>
+        <div class="row">
+          <!-- <div class="col-5">
+            <div class="small-img">
+              <div class="small-container">
+                <div id="small-img-roll" class="abc">
+                  <img src="../images/product-img-1.svg" class="show-small-img ml-0" alt="">
+                  <img src="../images/product-img-2.svg" class="show-small-img" alt="">
+                  <img src="../images/product-img-3.svg" class="show-small-img" alt="">
+                  <img src="../images/product-img-3.svg" class="show-small-img" alt="">
+                  <img src="../images/product-img-3.svg" class="show-small-img" alt="">
+                </div>
+              </div>
+            </div>
+          </div> -->
+          <!-- <div class=" fpg-counter-bar col-2">     
+                <div class="input-group ">
+                    <div class="input-group-append ">
+                        <div  class="input-group-text" id="decrease" onclick="decreaseValue()" >-</div> 
+                    </div>
+                    <input type="number" id="number" value="2" class="form-control  productquantity " readonly>
+                    <div class="input-group-append ">
+                        <div  class="input-group-text" id="increase" onclick="increaseValue()" >+</div> 
+                    </div>
+                </div>
+          </div>
+          <div class="col-5 btn-cart-list">
+            <button href="#" class="btn "> Add to cart </button>
+          </div> -->
+        </div>                      
+    </div>
+    <div class="container-fluid wbp">
+        <div class="row fpg-tab-content">
+            <div class="col-12 fpg-tabs">
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                      <a class="nav-link active" data-toggle="tab" href="#p-info">Product Information</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" data-toggle="tab" href="#reviews">Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" data-toggle="tab" href="#s-links">Social Links</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" data-toggle="tab" href="#documents">Documents</a>
+                    </li>
+                  </ul>
+            </div>
+        </div>
+        <div class="row fpg-tab-content">
+            <div class="tab-content">
+                <div class="tab-pane active" id="p-info"><p>dipisici facilis esse nihil itaque asperiores. Magni nulla nam velit repellendus quam. Quam itaque dolorum, obcaecati neque ipsam fugit nostrum quo aperiam. Alias repellat, dolores molestias asperiores eius incidunt enim autem velit consequuntur, delectus deserunt atque. Maiores consectetur, sunt neque dolorem, nulla perspiciatis at hic voluptatibus cum fugit maxime enim consequuntur excepturi esse repellat nam eos ex? Rem accusantium excepturi explicabo cum numquam doloreedit placeat magni minus cumque. Ad! <br> <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae eveniet doloremque sequi obcaecati cum voluptate nemo dolores nobis nostrum reiciendis eaque iste impedit, blanditiis veniam velit sunt natus harum laudantium hic, consectetur libero quibusdam sint inventore. Porro culpa voluptates obcaecati commodi ut ipsa delectus vitae atque perspiciatis. Fuga, incidunt et.</p></div>
+                <div class="tab-pane fade" id="reviews"><p>Lorem ipuos voluiores. Magni nulla nam velit repellendus quam. Quam itaque dolorum, obcaecati neque ipsam fugit nostrum quo aperiam. Alias repellat, dolores molestias asperiores eius incidunt enim autem velit consequuntur, delectus deserunt tium excepturi explicabo cum numquam dolore saepe atque expedita volui minus cumque. Ad!</p></div>
+                <div class="tab-pane fade" id="s-links"><p>Lorem ipsum dolum dolor sit amet consectetur adipisicing elit. Voluptatum neque soluta voluptatibus iste eveniet et aliquid quo commodi veniam quidem. , adipisicing elit. Temporibus accusantium quos voluptates reiciendis, exercitationem officiis vero hic cum veritatis facilis esse nihil itaque asperiores. Magni nulla nam velit repellendus quam. Quam itaque dolorum, obcaecati neque ipsam fugit nostrum quo aperiam. Alias repellat, dolores molestias asperiores eius incidunt enim autem velit consequuntur, delectus deserunt atque. Maiores consectetur, sunt neque dolorem, nulla perspiciatis at hic voluptatibus cum fugit maxime enim consequuntur excepturi esse repellat nam eos ex? Rem accusantium excepturi explicabo cum numquam dolore saepe atque expedita voluptatibus quae veniam iure assumenda, labore possimus nemo incidunt impedit placeat magni minus cumque. Ad!</p></div>
+                <div class="tab-pane fade" id="documents"><p>Lorem cing elit. Temporim quos voluptates reiciendis, exercitationem officiis vero hic cum veritatis facilis esse nihil itaque asperiores. Magni nulla nam velit repellendus quam. Quam itaque dolorum, obcaecati neque ipsam fugit nostrum quo aperiam. Alias repellat, dolores molestias asperiores eius incidunt enim autem velit consequuntur, delectus deserunt atque. Maiores consectetur, sunt neque dolorem, nulla perspiciatis at hic voluptatibus cum fugit maxime enim consequuntur excepturi esse repellat nam eos ex? Rem accusantium excepturi explicabo cum numquam dolore saepe atque expedita voluptatibus quae veniam iure assumenda, labore possimus nemo incidunt impedit placeat magni minus cumque. Ad!</p></div>
+              </div>
+        </div>
+    </div>
+    <div class="container-fluid wbp">
+        <div class="row">
+            <div class="col-12 featured-products">
+                <p >FEATURED PRODUCTS</p>
+            </div>
+        </div>
+        <div class="row sriper-products-row"  >
+            <div class="swiper-products">
+                <div class="swiper-wrapper products-wrapper">
+                    <div class="col-sm-3 col-6 swiper-slide grid-view-box gvb-slide">
+                        <div class="grid-img-box">
+                            <img src="../images/eyedrops.svg">
+                        </div>
+                        <p class="product-type">Beauty</p>
+                        <div class="name-compare-fav">
+                            <p class="grid-product-name">Eye Drops</p>
+                            <div class="grid-compare-love">
+                                <img src="../images/compare.svg" data-toggle="tooltip" title="Add to compare">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="star-price-cart">
+                            <div class="star-price">
+                                <div>
+                                    <i class="fas fa-star yellow-star"></i>
+                                    <i class="fas fa-star yellow-star"></i>
+                                    <i class="fas fa-star yellow-star"></i>
+                                    <i class="fas fa-star yellow-star"></i>
+                                    <i class="fas fa-star gray-star"></i>
+                                    <span>(41)</span>
+                                </div>
+                                <p class="grid-product-price">$334</p>
+                            </div>
+                            <button class="btn grid-cart"> <i class="fas fa-shopping-cart"></i> </button>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-6 swiper-slide grid-view-box gvb-slide">
+                        <div class="grid-img-box">
+                            <img src="../images/eyedrops.svg">
+                        </div>
+                        <p class="product-type">Beauty</p>
+                        <div class="name-compare-fav">
+                            <p class="grid-product-name">Eye Drops</p>
+                            <div class="grid-compare-love">
+                                <img src="../images/compare.svg" data-toggle="tooltip" title="Add to compare">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="star-price-cart">
+                            <div class="star-price">
+                                <div>
+                                    <i class="fas fa-star yellow-star"></i>
+                                    <i class="fas fa-star yellow-star"></i>
+                                    <i class="fas fa-star yellow-star"></i>
+                                    <i class="fas fa-star yellow-star"></i>
+                                    <i class="fas fa-star gray-star"></i>
+                                    <span>(41)</span>
+                                </div>
+                                <p class="grid-product-price">$334</p>
+                            </div>
+                            <button class="btn grid-cart"> <i class="fas fa-shopping-cart"></i> </button>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-6 swiper-slide grid-view-box gvb-slide">
+                        <div class="grid-img-box">
+                            <img src="../images/eyedrops.svg">
+                        </div>
+                        <p class="product-type">Beauty</p>
+                        <div class="name-compare-fav">
+                            <p class="grid-product-name">Eye Drops</p>
+                            <div class="grid-compare-love">
+                                <img src="../images/compare.svg" data-toggle="tooltip" title="Add to compare">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="star-price-cart">
+                            <div class="star-price">
+                                <div>
+                                    <i class="fas fa-star yellow-star"></i>
+                                    <i class="fas fa-star yellow-star"></i>
+                                    <i class="fas fa-star yellow-star"></i>
+                                    <i class="fas fa-star yellow-star"></i>
+                                    <i class="fas fa-star gray-star"></i>
+                                    <span>(41)</span>
+                                </div>
+                                <p class="grid-product-price">$334</p>
+                            </div>
+                            <button class="btn grid-cart"> <i class="fas fa-shopping-cart"></i> </button>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-6 swiper-slide grid-view-box gvb-slide">
+                        <div class="grid-img-box">
+                            <img src="../images/eyedrops.svg">
+                        </div>
+                        <p class="product-type">Beauty</p>
+                        <div class="name-compare-fav">
+                            <p class="grid-product-name">Eye Drops</p>
+                            <div class="grid-compare-love">
+                                <img src="../images/compare.svg" data-toggle="tooltip" title="Add to compare">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="star-price-cart">
+                            <div class="star-price">
+                                <div>
+                                    <i class="fas fa-star yellow-star"></i>
+                                    <i class="fas fa-star yellow-star"></i>
+                                    <i class="fas fa-star yellow-star"></i>
+                                    <i class="fas fa-star yellow-star"></i>
+                                    <i class="fas fa-star gray-star"></i>
+                                    <span>(41)</span>
+                                </div>
+                                <p class="grid-product-price">$334</p>
+                            </div>
+                            <button class="btn grid-cart"> <i class="fas fa-shopping-cart"></i> </button>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-6 swiper-slide grid-view-box gvb-slide">
+                        <div class="grid-img-box">
+                            <img src="../images/eyedrops.svg">
+                        </div>
+                        <p class="product-type">Beauty</p>
+                        <div class="name-compare-fav">
+                            <p class="grid-product-name">Eye Drops</p>
+                            <div class="grid-compare-love">
+                                <img src="../images/compare.svg" data-toggle="tooltip" title="Add to compare">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="star-price-cart">
+                            <div class="star-price">
+                                <div>
+                                    <i class="fas fa-star yellow-star"></i>
+                                    <i class="fas fa-star yellow-star"></i>
+                                    <i class="fas fa-star yellow-star"></i>
+                                    <i class="fas fa-star yellow-star"></i>
+                                    <i class="fas fa-star gray-star"></i>
+                                    <span>(41)</span>
+                                </div>
+                                <p class="grid-product-price">$334</p>
+                            </div>
+                            <button class="btn grid-cart"> <i class="fas fa-shopping-cart"></i> </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="swiper-custom-prev swiper-tb-prev product-swiper-prev ">
+                <i class="fas fa-chevron-left"></i>
+            </div> 
+            <div class="swiper-custom-prev swiper-tb-next product-swiper-next ">
+                <i class="fas fa-chevron-right"></i>
+            </div> 
+        </div>
+    </div>
+    <div class="container-fluid last-one ">
+        <div class="row footer">
+            <div class="col-3 contact-info">
+                <h5>Contact Info</h5>
+                <p><span>Email:</span>	abc@gmail.com</p>
+                <p><span>Phone:</span>	+92 (33) 120 67055</p>
+                <p><span>Address:</span>  1418 Riverwood Drive, Suite 3245 Cottonwood, UAE</p>
+                <p style="margin: 0.5vw;"><span>We accept:</span></p>
+                
+                  <p>
+                    <i class="fab fa-cc-visa"></i>
+                    <i class="fab fa-cc-mastercard"></i>
+                    <i class="fab fa-cc-paypal"></i>
+                    <i class="fab fa-cc-amazon-pay"></i>
+                    <i class="fab fa-cc-jcb"></i>
+                  </p>
+                
+            </div>
+            <div class="col-2 get-help">
+                 <h5>Get Help</h5>
+                 <p>Shipping Policy</p>
+                 <p>Terms & Conditions</p>
+                 <p>Returns & Refunds</p>
+                 <p>Information Privacy</p>
+                 <p>FAQs</p>
+            </div>
+            <div class="col-7 stay-in-touch">
+                <h5>Let’s stay in touch</h5>
+                <p>Keep up to date with our latest news and special offers.</p>
+                <div class="input-group email-address">
+                    <input type="text" class="form-control" placeholder=" Your email address" style="font-size: 0.85vw;" >
+                    <div class="input-group-append subscribe-option" >
+                      <span class="input-group-text" >Subscribe</span>
+                    </div>
+                  </div>
+                 <div class="seller-buyer">
+                    <div class="seller">  
+                    <p>How to Register as a seller</p>
+                    <div class="footer-video-box" >
+                        <a class="popup-youtube-1" href="https://www.youtube.com/watch?v=iKtk_sj3Ul0" data-effect="fadeIn" >
+                            <i class="fas fa-play-circle"></i>
+                        </a>
+                        <div class="fvb-time">6:13</div>
+                    </div>
+                    </div>
+                    <div class="seller">  
+                        <p>How to Register as a seller</p>
+                        <div class="footer-video-box" >
+                            <a class="popup-youtube-2" href="https://www.youtube.com/watch?v=iKtk_sj3Ul0" data-effect="fadeIn" >
+                                <i class="fas fa-play-circle"></i>
+                            </a>
+                            <div class="fvb-time">6:13</div>
+                        </div>
+                        </div>
+                 </div>
+            </div>
+        </div>
+        <div class="row solution-approval">
+            <div class="col-3 solution">
+                <p>© 2020 5D Solutions </p>
+            </div>
+            <div class="col-9 approval">
+                <p>Approvals and affiliations </p>
+                <i class="fab fa-cc-visa"></i>
+                <i class="fab fa-cc-mastercard"></i>
+                <i class="fab fa-cc-paypal"></i>
+                <i class="fab fa-cc-amazon-pay"></i>
+                <i class="fab fa-cc-jcb"></i>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid extra-footer-mob bn-hide-all">
+        <div class="row m-0">
+            <div class="col-12 py-0 px-3">
+                <div class="xf-head-edit xf-head-1">Contact Info <i class="fas fa-plus"></i></div>
+                <div class="xf-content-edit xf-content-1">
+                    <p><span>Email:</span> abc@gmail.com</p>
+                    <p><span>Phone:</span> +92 (33) 120 67055</p>
+                    <p><span>Address:</span> 1418 Riverwood Drive,  Suite 3245 Cottonwood, UAE</p>
+                </div>
+            </div>
+            <div class="col-12 py-0 px-3">
+                <div class="xf-head-edit xf-head-2">Get Help <i class="fas fa-plus"></i></div>
+                <div class="xf-content-edit xf-content-2">
+                    <p>Shipping Policy</p>
+                    <p>Terms & Conditions</p>
+                    <p>Returns & Refunds</p>
+                    <p>Information Privacy</p>
+                    <p>FAQ</p>
+                </div>
+            </div>
+            <div class="col-12 py-0 px-3">
+                <div class="xf-head-edit xf-head-3">Newsletter Signup <i class="fas fa-plus"></i></div>
+                <div class="xf-content-edit xf-content-3">
+                    <p>Keep up to date with our latest news and special offers.</p>
+                    <div class="xf-input-box">
+                        <input type="text" class="form-control">
+                        <button class="btn">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 py-0 mb-3 px-3">
+                <div class="xf-head-edit xf-head-4">How to register Video Guides <i class="fas fa-plus"></i></div>
+                <div class="xf-content-edit xf-content-4">
+                    <p class="my-2">How to Register as a Seller</p>
+                    <a href="https://www.youtube.com/watch?v=iKtk_sj3Ul0">
+                        <img src="../images/xf-img.svg">
+                    </a>
+                    <p class="my-2">How to Register as a Buyer</p>
+                    <a href="https://www.youtube.com/watch?v=iKtk_sj3Ul0">
+                        <img src="../images/xf-img.svg">
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 py-0 px-3 xf-last-box">
+                <p>Approvals and affiliations</p>
+                <span>
+                    <i class="fab fa-cc-visa"></i>
+                    <i class="fab fa-cc-mastercard"></i>
+                    <i class="fab fa-cc-paypal"></i>
+                    <i class="fab fa-cc-amazon-pay"></i>
+                    <i class="fab fa-cc-jcb"></i>
+                </span>>
+                <p>© 2020 JASAD Medical </p>
+                <a href="#page-top" class="top-go link-switch"><i class="fas fa-chevron-up"></i></a>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="../js/jquery.js"></script>
+    <script src="../js/swiper.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/zoom-image.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js" integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w==" crossorigin="anonymous"></script>
+
+
+    <script>
+        function myFunction(x) {
+            if (x.matches) { // mobile
+                var swiper = new Swiper('.swiper-products', {
+                    navigation: {
+                    nextEl: '.product-swiper-next',
+                    prevEl: '.product-swiper-prev',
+                    },
+                    slidesPerView: "2",
+                    loop: true,
+                });
+            } else { // desktop
+                var swiper = new Swiper('.swiper-products', {
+                    navigation: {
+                    nextEl: '.product-swiper-next',
+                    prevEl: '.product-swiper-prev',
+                    },
+                    slidesPerView: "4",
+                    loop: true,
+                });
+            }
+        }
+        var x = window.matchMedia("(max-width: 500px)")
+        myFunction(x) // Call listener function at run time
+        x.addListener(myFunction) // Attach listener function on state changes
+    </script>
+
+
+    <script>
+        $(".sbh-1").click(function () {
+        $(".sbc-1").slideToggle(500);
+        });
+        $(".sbh-2").click(function () {
+        $(".sbc-2").slideToggle(1000);
+        });
+    </script>
+    <script>
+        function increaseValue() {
+     var value = parseInt(document.getElementById('number').value, 10);
+     value = isNaN(value) ? 0 : value;
+     value++;
+     document.getElementById('number').value = value;
+   }
+   
+   function decreaseValue() {
+     var value = parseInt(document.getElementById('number').value, 10);
+     value = isNaN(value) ? 0 : value;
+     value < 1 ? value = 1 : '';
+     value--;
+     document.getElementById('number').value = value;
+   }
+    </script>
+
+
+
+<script>
+  $(".popup-youtube-1").magnificPopup({
+disableOn: 700,
+type: "iframe",
+mainClass: "mfp-fade",
+removalDelay: 160,
+preloader: false,
+fixedContentPos: false,
+iframe: {
+patterns: {
+youtube: {
+ index: "youtube.com/",
+ id: function (url) {
+   var m = url.match(/[\\?\\&]v=([^\\?\\&]+)/);
+   if (!m || !m[1]) return null;
+   return m[1];
+ },
+ src: "https://www.youtube.com/embed/%id%?autoplay=1",
+},
+},
+},
+});
+
+$(".popup-youtube-2").magnificPopup({
+disableOn: 700,
+type: "iframe",
+mainClass: "mfp-fade",
+removalDelay: 160,
+preloader: false,
+fixedContentPos: false,
+iframe: {
+patterns: {
+youtube: {
+ index: "youtube.com/",
+ id: function (url) {
+   var m = url.match(/[\\?\\&]v=([^\\?\\&]+)/);
+   if (!m || !m[1]) return null;
+   return m[1];
+ },
+ src: "https://www.youtube.com/embed/%id%?autoplay=1",
+},
+},
+},
+});
+ 
+</script>
+<script>
+        
+    $('.showzoom').zoomImage();
+    
+    $('.show-small-img:first-of-type').css({'border': 'solid 1px #1c9ad4', 'padding': '2px'})
+    $('.show-small-img:first-of-type').attr('alt', 'now').siblings().removeAttr('alt')
+    $('.show-small-img').click(function () {
+      $('#show-img').attr('src', $(this).attr('src'))
+      $('#big-img').attr('src', $(this).attr('src'))
+      $(this).attr('alt', 'now').siblings().removeAttr('alt')
+      $(this).css({'border': 'solid 1px #1c9ad4', 'padding': '2px'}).siblings().css({'border': 'none', 'padding': '0'})
+      if ($('#small-img-roll').children().length > 4) {
+        if ($(this).index() >= 3 && $(this).index() < $('#small-img-roll').children().length - 1){
+          $('#small-img-roll').css('left', -($(this).index() - 2) * 76 + 'px')
+        } else if ($(this).index() == $('#small-img-roll').children().length - 1) {
+          $('#small-img-roll').css('left', -($('#small-img-roll').children().length - 4) * 76 + 'px')
+        } else {
+          $('#small-img-roll').css('left', '0')
+        }
+      }
+    })
+    
+    $('#next-img').click(function (){
+         $('#show-img').attr('src', $(".show-small-img[alt='now']").next().attr('src'))
+         $('#big-img').attr('src', $(".show-small-img[alt='now']").next().attr('src'))
+         $(".show-small-img[alt='now']").next().css({'border': 'solid 1px #1c9ad4', 'padding': '2px'}).siblings().css({'border': 'none', 'padding': '0'})
+         $(".show-small-img[alt='now']").next().attr('alt', 'now').siblings().removeAttr('alt')
+         if ($('#small-img-roll').children().length > 4) {
+           if ($(".show-small-img[alt='now']").index() >= 3 && $(".show-small-img[alt='now']").index() < $('#small-img-roll').children().length - 1){
+             $('#small-img-roll').css('left', -($(".show-small-img[alt='now']").index() - 2) * 76 + 'px')
+           } else if ($(".show-small-img[alt='now']").index() == $('#small-img-roll').children().length - 1) {
+             $('#small-img-roll').css('left', -($('#small-img-roll').children().length - 4) * 76 + 'px')
+           } else {
+             $('#small-img-roll').css('left', '0')
+           }
+         }
+       })
+       
+       $('#prev-img').click(function (){
+         $('#show-img').attr('src', $(".show-small-img[alt='now']").prev().attr('src'))
+         $('#big-img').attr('src', $(".show-small-img[alt='now']").prev().attr('src'))
+         $(".show-small-img[alt='now']").prev().css({'border': 'solid 1px #1c9ad4', 'padding': '2px'}).siblings().css({'border': 'none', 'padding': '0'})
+         $(".show-small-img[alt='now']").prev().attr('alt', 'now').siblings().removeAttr('alt')
+         if ($('#small-img-roll').children().length > 4) {
+           if ($(".show-small-img[alt='now']").index() >= 3 && $(".show-small-img[alt='now']").index() < $('#small-img-roll').children().length - 1){
+             $('#small-img-roll').css('left', -($(".show-small-img[alt='now']").index() - 2) * 76 + 'px')
+           } else if ($(".show-small-img[alt='now']").index() == $('#small-img-roll').children().length - 1) {
+             $('#small-img-roll').css('left', -($('#small-img-roll').children().length - 4) * 76 + 'px')
+           } else {
+             $('#small-img-roll').css('left', '0')
+           }
+         }
+       });
+        </script>
+
+
+
+</body>
+</html>

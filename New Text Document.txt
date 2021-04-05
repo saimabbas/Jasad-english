@@ -1,0 +1,25 @@
+(P1) >> (DONE)
+Product Listing 
+
+
+(P2) (DONE)
+3. Shipment Tracking
+4. Change Password
+5. Manage Addresses
+9. Shipment Tracking 2
+
+
+(R)
+Seller Registration Approval
+
+
+(P4)
+6. Personal Detail 1
+7. Personal Detail 2
+9. Personal Detail 3
+
+
+(P5)
+1. Seller RFQ Summary Page + 6 Popups
+2. RFQ Details
+
